@@ -20,8 +20,8 @@ HTML
 <h2> How to start application?</h2>
 	
 ```bash
-# Install cli react, using Yarn:
-$ yarn global add create-react-app
+# Install cli react, using npm:
+$ npm add create-react-app
 
 # Create react application
 $ npx create-react-app
