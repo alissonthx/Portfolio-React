@@ -21,10 +21,10 @@ HTML
 	
 ```bash
 # Install cli react, using Yarn:
-$ yarn global add create-react-app
+$ npm add create-react-app
 
 # Create react application
-$ npx create-react-app
+$ npm create-react-app
 	
 # Starting react application
 $ npm start
