@@ -24,7 +24,7 @@ HTML
 $ npm add create-react-app
 
 # Create react application
-$ npm create-react-app
+$ npx create-react-app
 	
 # Starting react application
 $ npm start
