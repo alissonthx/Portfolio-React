@@ -1,5 +1,5 @@
 import Me from '../../Assets/img/perfil.png'
-import "./intro.css"
+import "./Intro.css"
 const Intro = () => {
     return (
         <div className="i">
