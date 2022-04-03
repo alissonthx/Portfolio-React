@@ -24,7 +24,7 @@ const About = () => {
         <div className="a-award">
           <img src={Award} alt="" className="a-award-img" />
           <div className="a-award-texts">
-            <h4 className="a-award-title">Awards</h4>
+            <h4 className="a-award-title">UX/UI Design</h4>
             <p className="a-award-desc">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
               quos, quisquam doloremque, quisquam quisquam doloremque, quisquam
