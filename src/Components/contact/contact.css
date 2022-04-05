@@ -1,0 +1,9 @@
+.c {
+  height: 100vh;
+}
+
+.c-bg {
+  width: 20px;
+  height: 100%;
+  background-color: #301E64;
+}
