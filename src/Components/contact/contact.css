@@ -12,7 +12,7 @@
 
 .c-wrapper {
   display: flex;
-  margin: 40px;
+  padding: 50px;  
 }
 
 .c-left {
@@ -27,12 +27,13 @@
   flex-direction: column;
 }
 
-.c-title {
+.c-title {  
   font-size: 60px;
   width: 80%;
 }
 
-.c-info-item {
+.c-info-item {  
+  margin: 50px 0px;
   display: flex;
   align-items: center;
   width: 70%;
@@ -45,8 +46,8 @@
 }
 
 .c-desc{  
-  font-size: 20px;
-  margin-top: 20px;
+  font-size: 200;
+  margin: 20px 0px;
 }
 
 form {
