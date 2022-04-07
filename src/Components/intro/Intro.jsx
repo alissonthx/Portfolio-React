@@ -1,6 +1,11 @@
 import Me from '../../Assets/img/perfil.png'
 import "./intro.css"
+import { useContext } from 'react';
+import { ThemeContext } from '../../context';
+
 const Intro = () => {
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
     return (
         <div className="i">
             <div className="i-left">
@@ -19,12 +24,12 @@ const Intro = () => {
                         I am a web developer with a passion for design and technology. I have a strong background in PHP, HTML, CSS and Javascript.
                     </p>
                 </div>
-        <svg
+        <svg style={{stroke: darkMode && "#fff"}}
           width="75"
           height="75"
           viewBox="0 0 75 75"
           fill="none"
-          stroke="#E3E3E3"
+          stroke="#000"
           className="i-scroll"
           xmlns="http://www.w3.org/2000/svg"
         >
