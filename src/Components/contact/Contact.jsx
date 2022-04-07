@@ -50,10 +50,10 @@ const Contact = () => {
             <b>Lorem ipsum dolor</b> sit amet consectetur, adipisicing elit. Illum quos est illo nulla odit quod, unde voluptatum
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
-            <input style={{backgroundColor: darkMode && "#000", color: darkMode && "#fff"}} type="text" placeholder="Name" name="user_name" />
-            <input style={{backgroundColor: darkMode && "#000", color: darkMode && "#fff"}} type="text" placeholder="Subject" name="user_subject" />
-            <input style={{backgroundColor: darkMode && "#000", color: darkMode && "#fff"}} type="text" placeholder="Email" name="user_email" />
-            <textarea style={{backgroundColor: darkMode && "#000", color: darkMode && "#fff"}} name="message" id="" rows="5"></textarea>
+            <input style={{backgroundColor: darkMode && "rgb(14, 15, 16)", color: darkMode && "#fff"}} type="text" placeholder="Name" name="user_name" />
+            <input style={{backgroundColor: darkMode && "rgb(14, 15, 16)", color: darkMode && "#fff"}} type="text" placeholder="Subject" name="user_subject" />
+            <input style={{backgroundColor: darkMode && "rgb(14, 15, 16)", color: darkMode && "#fff"}} type="text" placeholder="Email" name="user_email" />
+            <textarea style={{backgroundColor: darkMode && "rgb(14, 15, 16)", color: darkMode && "#fff"}} name="message" id="" rows="5"></textarea>
             <button>Submit</button>
             {done && <p className="c-done">Your message has been sent!</p>}
           </form>
