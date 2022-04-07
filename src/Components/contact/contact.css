@@ -62,7 +62,7 @@ input {
   margin: 10px 0px;
   font-size: 14px;
   padding-left: 10px;
-  background-color: black;
+  background-color: rgb(14, 15, 16);
   color: #fff;
 }
 
@@ -72,7 +72,7 @@ input::placeholder {
 
 textarea {
   color: #fff;
-  background-color: black;
+  background-color: rgb(14, 15, 16);
   width: 100%;
   margin: 10px 0px;
   font-size: 14px;
