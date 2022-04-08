@@ -26,3 +26,16 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 480px) {
+  .pl {
+    padding: 10px;
+    height: auto;    
+  }
+  .pl-texts {
+    width: 100%;
+  }
+  .pl-desc {
+    display: none;
+  }
+}
