@@ -17,7 +17,7 @@
   z-index: 2;
 }
 
-.p-circle{
+.p-circle {
   width: 6px;
   height: 6px;
   border-radius: 50%;
@@ -25,11 +25,18 @@
   background-color: white;
 }
 
-.p-img{
+.p-img {
   width: 100%;
   transition: 10s ease;
 }
 
-.p:hover .p-img{
+.p:hover .p-img {
   transform: translateY(-100%);
+}
+
+@media screen and (max-width: 480px) {
+  .p {
+    width: 40%;
+    height: 10vh;
+  }
 }
