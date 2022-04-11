@@ -1,5 +1,5 @@
-<h1 align="center"> Portifolio </h1>
-<p align="center"> Portifolio personal with possible deploy in Vercel</p>
+<h1 align="center"> Portfolio </h1>
+<p align="center"> Portfolio personal with possible deploy in Vercel</p>
 
 <h2>🚀 Technologies</h2>
 <ul>
@@ -14,6 +14,9 @@ CSS
 </li>
 <li>
 HTML
+</li>
+<li>
+Vercel
 </li>
 <u>
 	
@@ -31,5 +34,5 @@ $ npm start
 ```
 
 <h3 align="center"> 
-	Status: 🚧  In Progress...  🚧
+	Status: 🚀 Done
 </h3>
