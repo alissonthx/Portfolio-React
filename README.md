@@ -1,5 +1,6 @@
 <h1 align="center"> Portfolio </h1>
-<p align="center"> Portfolio personal with possible deploy in Vercel</p>
+<img src="../../Assets/img/readme-img.png" alt="" />
+<p align="center"> Personal portfolio with possible deploy in Vercel</p>
 
 <h2>🚀 Technologies</h2>
 <ul>
