@@ -14,20 +14,17 @@ const About = () => {
       <div className="a-right">
         <h1 className="a-title">About me</h1>
         <p className="a-sub">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam repudiandae, amet non distinctio possimus libero aliquid. A iusto, enim amet animi labore porro maiores dolorem. Tenetur aliquid repellendus nobis reprehenderit.
+          Web developer with a passion for creating beautiful and functional websites, systems and applications.
         </p>
         <p className="a-desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-          quos, quisquam doloremque, quisquam quisquam doloremque, quisquam
-          quisquam doloremque, quisquam quisquam doloremque, quisquam quisquam
+          I am a self-taught web developer with a background in business and management. I have a passion for React.js and Node.js. Actually working on a projects with PHP and Laravel, using MySql database.
         </p>
         <div className="a-award">
           <img src={Award} alt="" className="a-award-img" />
           <div className="a-award-texts">
-            <h4 className="a-award-title">UX/UI Design</h4>
+            <h4 className="a-award-title">JavaScript ES6 essencial </h4>
             <p className="a-award-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-              quos, quisquam doloremque, quisquam quisquam doloremque, quisquam
+              JavaScript ES6 essencial, is a free online course for beginners learn JavaScript basics for web.
             </p>
           </div>
         </div>

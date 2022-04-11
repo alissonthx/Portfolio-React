@@ -41,7 +41,7 @@ const Contact = () => {
             </div>
             <div className="c-info-item">
               <img src={Address} alt="" className="c-icon" />
-              Zona 07, Maringá - PR
+              R.Dez de maio, Zona 07, Maringá - PR
             </div>
           </div>
         </div>
