@@ -15,6 +15,9 @@ CSS
 <li>
 HTML
 </li>
+<li>
+Vercel
+</li>
 <u>
 	
 <h2> How to start application?</h2>
