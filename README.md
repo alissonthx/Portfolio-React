@@ -34,5 +34,5 @@ $ npm start
 ```
 
 <h3 align="center"> 
-	Status: 🚧  In Progress...  🚧
+	Status: Done!
 </h3>
