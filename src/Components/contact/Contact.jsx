@@ -47,7 +47,7 @@ const Contact = () => {
         </div>
         <div className="c-right">
           <p className="c-desc">
-            <b>Want to talk</b> with me?
+            <b>Want to talk</b> with me? consider the following ways to get in
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input style={{backgroundColor: darkMode && "rgb(14, 15, 16)", color: darkMode && "#fff"}} type="text" placeholder="Name" name="user_name" />
