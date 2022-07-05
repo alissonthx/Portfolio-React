@@ -20,6 +20,7 @@ const About = () => {
           I am a self-taught web developer with a background in business and management. I have a passion for React.js and Node.js. Actually working on a projects with PHP and Laravel, using MySql database.
         </p>
         <div className="a-award">
+          <div className="p-button"></div>
           <img src={Award} alt="" className="a-award-img" />
           <div className="a-award-texts">
             <h4 className="a-award-title">JavaScript ES6 essencial </h4>
@@ -27,6 +28,7 @@ const About = () => {
               JavaScript ES6 essencial, is a free online course for beginners learn JavaScript basics for web.
             </p>
           </div>
+          <div className="n-button"></div>
         </div>
       </div>
     </div>
