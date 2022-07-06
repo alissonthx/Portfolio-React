@@ -75,22 +75,24 @@
     font-weight: 300;
 }
 
-.n-button {
+.n-button {    
     right: 0;
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: #999;
+    border:#ccc solid 1px;
+    background-color: rgba(204, 204, 204, 0.452);
     position: absolute;
     cursor: pointer;
 }
 
 .p-button {
-    left: 45%;
+    left: 49.2%;
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: #999;
+    border:#ccc solid 1px;
+    background-color: rgba(204, 204, 204, 0.452);
     position: absolute;
     cursor: pointer;
 }
