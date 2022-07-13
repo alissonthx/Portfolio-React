@@ -20,3 +20,32 @@ export const products = [
       link: "https://alissonthx.github.io/javascript-learning/",
     },    
   ];
+
+  export const awards = [
+    {
+      id: 1,
+      img: "https://i.postimg.cc/nzfhnvJg/award.jpg",
+      desc: "JavaScript ES6 essencial, is a free online course for beginners learn JavaScript basics for web."
+    },
+    {
+      id: 2,
+      img: "https://i.postimg.cc/y8VJtbKm/Javascript-Learning.png",
+      desc: "JavaScript ES6 essencial, is a free online course for beginners learn JavaScript basics for web.",
+    },
+    {
+      id: 3,
+      img: "https://i.postimg.cc/y8VJtbKm/Javascript-Learning.png",
+      desc: "JavaScript ES6 essencial, is a free online course for beginners learn JavaScript basics for web.",
+    },
+    {
+      id: 4,
+      img: "https://i.postimg.cc/y8VJtbKm/Javascript-Learning.png",
+      desc: "JavaScript ES6 essencial, is a free online course for beginners learn JavaScript basics for web.",
+    },
+    {
+      id: 5,
+      img: "https://i.postimg.cc/y8VJtbKm/Javascript-Learning.png",
+      desc: "JavaScript ES6 essencial, is a free online course for beginners learn JavaScript basics for web.",
+    },
+  ];
+  

@@ -1,10 +1,8 @@
-import "./about.css"
-import Abt from "../../Assets/img/about.jpg"
-import Award from "../../Assets/img/award.jpg"
-import Previous from "../../Assets/img/previous.svg"
-import Next from "../../Assets/img/next.svg"
+import "./about.css";
+import Abt from "../../Assets/img/about.jpg";
+import AwardList from "../awardList/AwardList";
 
-const About = () => {
+const About = () => {  
   return (
     <div className="a">
       <div className="a-left">
@@ -16,27 +14,20 @@ const About = () => {
       <div className="a-right">
         <h1 className="a-title">About me</h1>
         <p className="a-sub">
-          Web developer with a passion for creating beautiful and functional websites, systems and applications.
+          Web developer with a passion for creating beautiful and functional
+          websites, systems and applications.
         </p>
         <p className="a-desc">
-          I am a self-taught web developer with a background in business and management. I have a passion for React.js and Node.js. Actually working on a projects with PHP and Laravel, using MySql database.
+          I am a self-taught web developer with a background in business and
+          management. I have a passion for React.js and Node.js. Actually
+          working on a projects with PHP and Laravel, using MySql database.
         </p>
-        <div className="a-award">
-          {/* <div className="p-button"></div> */}
-          {/* <div className="n-button"></div> */}
-          <img src={Previous} alt="" className="a-award-img" />
-          <img src={Next} alt="" className="a-award-img" />
-          <img src={Award} alt="" className="a-award-img" />
-          <div className="a-award-texts">
-            <h4 className="a-award-title">JavaScript ES6 essencial </h4>
-            <p className="a-award-desc">
-              JavaScript ES6 essencial, is a free online course for beginners learn JavaScript basics for web.
-            </p>
-          </div>
-        </div>
+        {/* Carousel */}
+        <AwardList/>        
+        {/* Carousel ending */}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;

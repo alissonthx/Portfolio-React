@@ -6,16 +6,16 @@ import ProductList from "./Components/productList/ProductList";
 import Toogle from "./Components/toogle/Toogle";
 import { ThemeContext } from "./context";
 
-const App  = () => {
+const App = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
-  return <div style={{backgroundColor: darkMode ? "rgb(14, 15, 16)" : "white", color: darkMode && "white",}}>
+  return <div style={{ backgroundColor: darkMode ? "rgb(14, 15, 16)" : "white", color: darkMode && "white", }}>
     <Toogle />
-    <Intro/>
-    <About/>
-    <ProductList/>
-    <Contact/>
-    </div>;  
+    <Intro />
+    <About />
+    <ProductList />
+    <Contact />
+  </div>;
 };
 
 export default App;
