@@ -1,0 +1,15 @@
+.a-award{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 780px;
+}
+
+.award-list{    
+    display: flex;        
+    align-items: center;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    max-width: 780px;    
+}

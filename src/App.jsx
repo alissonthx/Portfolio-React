@@ -1,5 +1,4 @@
 import { useContext } from "react";
-import Carousel from "./Components/carousel/Carousel";
 import About from "./Components/about/About";
 import Contact from "./Components/contact/Contact";
 import Intro from "./Components/intro/Intro";

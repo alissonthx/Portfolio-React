@@ -24,13 +24,28 @@ export const products = [
   export const awards = [
     {
       id: 1,
-      img: "https://i.postimg.cc/3xw6L3k2/alissonthx-wixsite-com.png",
-      link: "https://alissonthx.wixsite.com/gamedev",
+      img: "https://i.postimg.cc/nzfhnvJg/award.jpg",
+      desc: "JavaScript ES6 essencial, is a free online course for beginners learn JavaScript basics for web."
     },
     {
       id: 2,
       img: "https://i.postimg.cc/y8VJtbKm/Javascript-Learning.png",
-      link: "https://alissonthx.github.io/javascript-learning/",
+      desc: "JavaScript ES6 essencial, is a free online course for beginners learn JavaScript basics for web.",
+    },
+    {
+      id: 3,
+      img: "https://i.postimg.cc/y8VJtbKm/Javascript-Learning.png",
+      desc: "JavaScript ES6 essencial, is a free online course for beginners learn JavaScript basics for web.",
+    },
+    {
+      id: 4,
+      img: "https://i.postimg.cc/y8VJtbKm/Javascript-Learning.png",
+      desc: "JavaScript ES6 essencial, is a free online course for beginners learn JavaScript basics for web.",
+    },
+    {
+      id: 5,
+      img: "https://i.postimg.cc/y8VJtbKm/Javascript-Learning.png",
+      desc: "JavaScript ES6 essencial, is a free online course for beginners learn JavaScript basics for web.",
     },
   ];
   

@@ -1,6 +1,6 @@
 import "./about.css";
 import Abt from "../../Assets/img/about.jpg";
-import Carousel from "../carousel/Carousel";
+import AwardList from "../awardList/AwardList";
 
 const About = () => {  
   return (
@@ -23,7 +23,7 @@ const About = () => {
           working on a projects with PHP and Laravel, using MySql database.
         </p>
         {/* Carousel */}
-        <Carousel/>        
+        <AwardList/>        
         {/* Carousel ending */}
       </div>
     </div>
