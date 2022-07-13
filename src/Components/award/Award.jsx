@@ -6,9 +6,7 @@ const Award = ({ img, desc }) => {
             <img src={img} alt="" className="award-img" />
             <div className="award-texts">
                 <h4 className="award-title">JavaScript ES6 essencial </h4>
-                <p className="award-desc">
-                    {desc}
-                </p>
+                <p className="award-desc">{desc}</p>
             </div>
         </div>
     );
