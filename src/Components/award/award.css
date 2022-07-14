@@ -1,8 +1,8 @@
-.award {           
+.award {
     display: flex;
     align-items: center;
-    justify-content: space-around;        
-    min-width: 780px;
+    justify-content: space-around;
+    min-width: 780px;        
 }
 
 .award-img {
@@ -28,4 +28,18 @@
     width: 45px;
     height: 45px;
     margin: 10px;
+}
+
+.award-svg:active {
+    animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+    25% {
+        opacity: 1;        
+    }
+
+    50% {
+        opacity: 0;
+    }
 }
