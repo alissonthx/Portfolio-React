@@ -9,7 +9,7 @@
 .award-list{    
     display: flex;        
     align-items: center;
-    overflow-x: scroll;
+    overflow-x: auto;
     scroll-behavior: smooth;
     max-width: 780px;    
 }
