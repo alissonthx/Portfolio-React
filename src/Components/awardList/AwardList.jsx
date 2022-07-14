@@ -9,13 +9,11 @@ const AwardList = () => {
     const carousel = useRef(null);    
 
     const handleLeftClick = (e) => {
-        e.preventDefault();
-        console.log(carousel.current);
+        e.preventDefault();        
         carousel.current.scrollLeft -= carousel.current.offsetWidth;
     }
     const handleRightClick = (e) => {
-        e.preventDefault();
-        console.log(carousel.current);
+        e.preventDefault();        
         carousel.current.scrollLeft += carousel.current.offsetWidth;
     }
 
