@@ -6,6 +6,10 @@
     min-width: 780px;
 }
 
+.a-award .award-list::-webkit-scrollbar{
+    display: none;
+}
+
 .award-list{    
     display: flex;        
     align-items: center;
