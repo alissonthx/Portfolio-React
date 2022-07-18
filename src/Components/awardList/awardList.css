@@ -10,6 +10,10 @@
     display: none;
 }
 
+.svg-hide{
+    opacity: 0.6;
+}
+
 .award-list {
     display: flex;
     align-items: center;
