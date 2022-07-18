@@ -1,8 +1,9 @@
-.award {           
+.award {
     display: flex;
     align-items: center;
-    justify-content: space-around;        
+    justify-content: space-around;
     min-width: 780px;
+    overflow-x: hidden;
 }
 
 .award-img {
@@ -28,4 +29,32 @@
     width: 45px;
     height: 45px;
     margin: 10px;
+}
+
+.fadein-next .award {
+    animation: fadein-next 1s;
+}
+
+@keyframes fadein-next {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.fadein-previous .award {
+    animation: fadein-previous 1s;
+}
+
+@keyframes fadein-previous {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
 }

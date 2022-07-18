@@ -1,4 +1,4 @@
-.a-award{
+.a-award {
     margin-top: 50px;
     display: flex;
     align-items: center;
@@ -6,10 +6,18 @@
     min-width: 780px;
 }
 
-.award-list{    
-    display: flex;        
+.a-award .award-list::-webkit-scrollbar {
+    display: none;
+}
+
+.svg-hide{
+    opacity: 0.6;
+}
+
+.award-list {
+    display: flex;
     align-items: center;
-    overflow-x: auto;
+    overflow-x: scroll;
     scroll-behavior: smooth;
-    max-width: 780px;    
+    max-width: 780px;
 }
