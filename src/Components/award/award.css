@@ -32,7 +32,7 @@
 }
 
 .fadein-next .award {
-    animation: fadein-next 1s;
+    animation: fadein-next 0.5s;
 }
 
 @keyframes fadein-next {
@@ -46,7 +46,7 @@
 }
 
 .fadein-previous .award {
-    animation: fadein-previous 1s;
+    animation: fadein-previous 0.5s;
 }
 
 @keyframes fadein-previous {

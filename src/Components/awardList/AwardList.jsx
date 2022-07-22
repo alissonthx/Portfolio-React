@@ -41,7 +41,7 @@ const AwardList = () => {
             } else {
                 carousel.current.scrollLeft -= carousel.current.offsetWidth;
                 FadeinLeft();
-                setTimeout(FadeinLeft, 1000);
+                setTimeout(FadeinLeft, 500);
             }
         }
     }
@@ -55,7 +55,7 @@ const AwardList = () => {
             } else {
                 carousel.current.scrollLeft += carousel.current.offsetWidth;
                 FadeinRight();
-                setTimeout(FadeinRight, 1000);
+                setTimeout(FadeinRight, 500);
             }
         }
     }
