@@ -1,12 +1,16 @@
 import "./awardList.css";
+import Award from "../award/Award";
 import { useRef } from "react";
 import { useState } from "react";
+import { ThemeContext } from "../../context.js";
 import { awards } from "../../data.js";
-import Award from "../award/Award";
-import Previous from "../../Assets/img/previous.svg";
-import Next from "../../Assets/img/next.svg";
+import { ReactComponent as Previous } from "../../Assets/img/previous.svg";
+import { ReactComponent as Next } from "../../Assets/img/next.svg";
+import { useContext } from "react";
 
 const AwardList = () => {
+    const theme = useContext(ThemeContext);
+    const darkMode = theme.state.darkMode;
 
     const [fadeRight, setFadeRight] = useState(false);
     const [fadeLeft, setFadeLeft] = useState(false);
@@ -62,13 +66,13 @@ const AwardList = () => {
 
     return (
         <div className="a-award">
-            <img src={Previous} alt="scroll left" onClick={handleLeftClick} className={classSVG} />
+            <Previous style={{ stroke: darkMode && "#fff" }} alt="scroll left" onClick={handleLeftClick} className={classSVG} />
             <div className={classN} ref={carousel}>
                 {awards.map((item) => (
                     <Award key={item.id} img={item.img} desc={item.desc} link={item.link} title={item.title} />
                 ))}
             </div>
-            <img src={Next} alt="scroll right" onClick={handleRightClick} className={classSVG} />
+            <Next style={{ stroke:"#fff" }} alt="scroll right" onClick={handleRightClick} className={classSVG} />
         </div>
     );
 };
