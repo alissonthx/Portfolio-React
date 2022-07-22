@@ -11,7 +11,7 @@ const AwardList = () => {
     const [fadeRight, setFadeRight] = useState(false);
     const [fadeLeft, setFadeLeft] = useState(false);
     const [animation, setAnimation] = useState(false);
-    
+
     const classN = `award-list ${fadeRight ? "fadein-next" : ""}${fadeLeft ? "fadein-previous" : ""}`;
     const classSVG = `award-svg ${animation ? "" : "svg-hide"}${animation ? "" : "svg-hide"}`;
 
@@ -25,7 +25,7 @@ const AwardList = () => {
             return !prevState
         });
     };
-    function SvgHide(){
+    function SvgHide() {
         setAnimation(prevState => {
             return !prevState
         });
@@ -34,7 +34,7 @@ const AwardList = () => {
     const carousel = useRef(null);
     const handleLeftClick = (e) => {
         e.preventDefault();
-        if (classN.search("fadein-previous") === -1) {            
+        if (classN.search("fadein-previous") === -1) {
             if (carousel.current.scrollLeft <= 0) {
                 //to disable click if fadein-previous is active                
                 SvgHide();
@@ -51,7 +51,7 @@ const AwardList = () => {
             if (carousel.current.scrollLeft >= carousel.current.scrollWidth - carousel.current.offsetWidth) {
                 // to disable click if fadein-next is active 
                 console.log("disabled");
-                SvgHide();           
+                SvgHide();
             } else {
                 carousel.current.scrollLeft += carousel.current.offsetWidth;
                 FadeinRight();
@@ -65,7 +65,7 @@ const AwardList = () => {
             <img src={Previous} alt="scroll left" onClick={handleLeftClick} className={classSVG} />
             <div className={classN} ref={carousel}>
                 {awards.map((item) => (
-                    <Award key={item.id} img={item.img} desc={item.desc} />
+                    <Award key={item.id} img={item.img} desc={item.desc} link={item.link} title={item.title} />
                 ))}
             </div>
             <img src={Next} alt="scroll right" onClick={handleRightClick} className={classSVG} />
