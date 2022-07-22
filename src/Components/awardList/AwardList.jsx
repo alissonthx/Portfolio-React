@@ -36,8 +36,7 @@ const AwardList = () => {
         e.preventDefault();
         if (classN.search("fadein-previous") === -1) {            
             if (carousel.current.scrollLeft <= 0) {
-                //to disable click if fadein-previous is active
-                console.log("disabled");
+                //to disable click if fadein-previous is active                
                 SvgHide();
             } else {
                 carousel.current.scrollLeft -= carousel.current.offsetWidth;
