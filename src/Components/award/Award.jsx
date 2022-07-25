@@ -1,11 +1,11 @@
 import "./award.css";
 
-const Award = ({ img, desc }) => {
+const Award = ({ img, desc, link, title }) => {
     return (
         <div className="award">
-            <img src={img} alt="" className="award-img" />
+            <a target="_blank" href={link}><img src={img} alt="" className="award-img" /></a>
             <div className="award-texts">
-                <h4 className="award-title">JavaScript ES6 essencial </h4>
+                <h4 className="award-title">{title}</h4>
                 <p className="award-desc">{desc}</p>
             </div>
         </div>
