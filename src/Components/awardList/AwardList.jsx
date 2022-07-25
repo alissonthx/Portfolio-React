@@ -4,8 +4,8 @@ import { useRef } from "react";
 import { useState } from "react";
 import { ThemeContext } from "../../context.js";
 import { awards } from "../../data.js";
-import { ReactComponent as Previous } from "../../Assets/img/previous.svg";
-import { ReactComponent as Next } from "../../Assets/img/next.svg";
+import Previous from "../next/Next";
+import Next from "../previous/Previous";
 import { useContext } from "react";
 
 const AwardList = () => {
@@ -66,13 +66,13 @@ const AwardList = () => {
 
     return (
         <div className="a-award">
-            <Previous style={{ stroke: darkMode && "#fff" }} alt="scroll left" onClick={handleLeftClick} className={classSVG} />
+            <Next style={{ stroke: "#fff" }} alt="scroll right" onClick={handleRightClick} className={classSVG} />
             <div className={classN} ref={carousel}>
                 {awards.map((item) => (
                     <Award key={item.id} img={item.img} desc={item.desc} link={item.link} title={item.title} />
                 ))}
             </div>
-            <Next style={{ stroke:"#fff" }} alt="scroll right" onClick={handleRightClick} className={classSVG} />
+            <Previous style={{ stroke: darkMode && "#fff" }} alt="scroll left" onClick={handleLeftClick} className={classSVG} />
         </div>
     );
 };
