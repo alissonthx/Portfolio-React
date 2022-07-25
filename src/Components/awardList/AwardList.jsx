@@ -85,7 +85,7 @@ const AwardList = () => {
                     <Award key={item.id} img={item.img} desc={item.desc} link={item.link} title={item.title} />
                 ))}
             </div>
-            <Next style={{filter: darkMode && "invert(1)"}} onClick={handleRightClick} className={classSVGN} />
+            <Next  style={{filter: darkMode && "invert(1)"}} onClick={handleRightClick} className={classSVGN} />
         </div>
     );
 };
