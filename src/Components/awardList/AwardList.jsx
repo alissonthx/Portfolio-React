@@ -2,15 +2,15 @@ import "./awardList.css";
 import Award from "../award/Award";
 import { useRef } from "react";
 import { useState } from "react";
-import { ThemeContext } from "../../context.js";
 import { awards } from "../../data.js";
 import Previous from "../next/Next";
 import Next from "../previous/Previous";
-import { useContext } from "react";
+// import { ThemeContext } from "../../context.js";
+// import { useContext } from "react";
 
 const AwardList = () => {
-    const theme = useContext(ThemeContext);
-    const darkMode = theme.state.darkMode;
+    // const theme = useContext(ThemeContext);
+    // const darkMode = theme.state.darkMode;
 
     const [fadeRight, setFadeRight] = useState(false);
     const [fadeLeft, setFadeLeft] = useState(false);
@@ -37,7 +37,7 @@ const AwardList = () => {
 
     const carousel = useRef(null);
     const handleLeftClick = (e) => {
-        e.preventDefault();
+        // e.preventDefault();
         if (classN.search("fadein-previous") === -1) {
             if (carousel.current.scrollLeft <= 0) {
                 //to disable click if fadein-previous is active                
@@ -50,7 +50,7 @@ const AwardList = () => {
         }
     }
     const handleRightClick = (e) => {
-        e.preventDefault();
+        // e.preventDefault();
         if (classN.search("fadein-next") === -1) {
             if (carousel.current.scrollLeft >= carousel.current.scrollWidth - carousel.current.offsetWidth) {
                 // to disable click if fadein-next is active 
@@ -66,13 +66,13 @@ const AwardList = () => {
 
     return (
         <div className="a-award">
-            <Next style={{ stroke: "#fff" }} alt="scroll right" onClick={handleRightClick} className={classSVG} />
+            <Next onClick={handleLeftClick} className={classSVG} />
             <div className={classN} ref={carousel}>
                 {awards.map((item) => (
                     <Award key={item.id} img={item.img} desc={item.desc} link={item.link} title={item.title} />
                 ))}
             </div>
-            <Previous style={{ stroke: darkMode && "#fff" }} alt="scroll left" onClick={handleLeftClick} className={classSVG} />
+            <Previous onClick={handleRightClick} className={classSVG} />
         </div>
     );
 };
