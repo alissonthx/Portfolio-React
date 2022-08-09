@@ -79,13 +79,13 @@ const AwardList = () => {
 
     return (
         <div className="a-award">
-            <Previous style={{filter: darkMode && "invert(1)"}} onClick={handleLeftClick} className={classSVGP} />
+            <Previous style={{ filter: darkMode && "invert(1)" }} onClick={handleLeftClick} className={classSVGP} />
             <div className={classN} ref={carousel}>
                 {awards.map((item) => (
                     <Award key={item.id} img={item.img} desc={item.desc} link={item.link} title={item.title} />
                 ))}
             </div>
-            <Next  style={{filter: darkMode && "invert(1)"}} onClick={handleRightClick} className={classSVGN} />
+            <Next style={{ filter: darkMode && "invert(1)" }} onClick={handleRightClick} className={classSVGN} />
         </div>
     );
 };

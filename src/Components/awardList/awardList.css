@@ -18,6 +18,7 @@
     display: flex;
     align-items: center;
     overflow-x: scroll;
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
     max-width: 780px;
+    overflow: hidden;
 }
