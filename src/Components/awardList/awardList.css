@@ -20,4 +20,5 @@
     overflow-x: scroll;
     scroll-behavior: smooth;
     max-width: 780px;
+    overflow: hidden;
 }
