@@ -19,6 +19,11 @@ export const products = [
       img: "https://i.postimg.cc/7Y1GByFP/Quiz-App.png",
       link: "https://alissonthx.github.io/javascript-learning/",
     },    
+    {
+      id: 5,
+      img: "https://i.postimg.cc/C1wcMRGt/imagem-2022-09-20-125233712.png",
+      link: "https://alissonthx.github.io/Quiz-Template/",
+    },    
   ];
 
   export const awards = [
