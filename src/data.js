@@ -12,7 +12,7 @@ export const products = [
     {
       id: 3,
       img: "https://i.postimg.cc/TYv5qPHH/Countdown-Timer.png",
-      link: "https://alissonthx.github.io/javascript-learning/",
+      link: "https://alissonthx.github.io/javascript-learning/countdown-timer/index.html",
     },    
     {
       id: 4,
