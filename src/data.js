@@ -17,7 +17,7 @@ export const products = [
     {
       id: 4,
       img: "https://i.postimg.cc/7Y1GByFP/Quiz-App.png",
-      link: "https://alissonthx.github.io/javascript-learning/",
+      link: "https://alissonthx.github.io/javascript-learning/Quiz-App/index.html",
     },    
     {
       id: 5,
