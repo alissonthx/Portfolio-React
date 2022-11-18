@@ -45,7 +45,7 @@ const Contact = () => {
               <img src={Address} alt="address icon" className="c-icon" />
               R.Dez de maio, Zona 07, Maringá - PR
             </div>
-            <a style={{backgroundColor: darkMode && "rgb(14, 15, 16)", color: darkMode && "#fff"}} href="https://www.linkedin.com/in/alisson-marques-miquelace-63875b106/" className="c-info-item">
+            <a style={{backgroundColor: darkMode && "rgb(14, 15, 16)", color: darkMode && "#fff"}} href="https://www.linkedin.com/in/alisson-marques-miquelace/" className="c-info-item">
               <img src={Linkedin} alt="linkedin icon" className="c-icon" />
               LinkedIn
             </a>
