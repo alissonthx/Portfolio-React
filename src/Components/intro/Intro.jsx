@@ -21,7 +21,7 @@ const Intro = () => {
                         </div>
                     </div>
                     <p className="i-desc">
-                        I am a web developer with a passion for design and technology. I have a strong background in PHP, HTML, CSS and Javascript.
+                        I am a Game developer with a passion for design and technology.
                     </p>
                 </div>
         <svg style={{stroke: darkMode && "#fff"}}

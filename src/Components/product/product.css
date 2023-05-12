@@ -6,6 +6,9 @@
   border-radius: 10px 10px 0px 0px;
   margin: 20px 10px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .p-browser {
@@ -28,6 +31,11 @@
 .p-img {
   width: 100%;
   transition: 10s ease;
+}
+
+.p-texts {
+  padding: 10px;
+  align-self: flex-start;
 }
 
 .p:hover .p-img {

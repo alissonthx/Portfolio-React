@@ -57,7 +57,7 @@ const Contact = () => {
         </div>
         <div className="c-right">
           <p className="c-desc">
-            <b>Want to talk with me?</b> consider the following ways to get a fresh start.
+            <b>Wanna talk with me?</b> consider the following ways to get a fresh start.
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input style={{backgroundColor: darkMode && "rgb(14, 15, 16)", color: darkMode && "#fff"}} type="text" placeholder="Name" name="user_name" />
