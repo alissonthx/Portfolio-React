@@ -5,7 +5,10 @@
   border: 2px solid #ccc;
   border-radius: 10px 10px 0px 0px;
   margin: 20px 10px;
-  overflow: hidden;
+  overflow: hidden; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
 }
 
 .p-browser {
@@ -28,6 +31,10 @@
 .p-img {
   width: 100%;
   transition: 10s ease;
+}
+
+.p-texts {
+  padding: 10px;  
 }
 
 .p:hover .p-img {
