@@ -1,6 +1,6 @@
 <h1 align="center"> Portfolio </h1>
 <a href="https://alissonthx-portfolio.vercel.app"><img src="./src/Assets/img/readme-img.png" alt="" /></a>
-<p align="center"> Personal portfolio with possible deploy in Vercel</p>
+<p align="center"> Personal portfolio with deploy in Vercel</p>
 
 <h2>🚀 Technologies</h2>
 <ul>

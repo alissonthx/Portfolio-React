@@ -21,7 +21,7 @@ export const products = [
       id: 4,
       img: "https://i.postimg.cc/TYv5qPHH/Countdown-Timer.png",
       desc: "Countdown timer page in Javascript.",
-      link: "https://alissonthx.github.io/javascript-learning/countdown-timer/index.html"
+      link: "https://alissonthx.github.io/javascript-learning/countdown-timer/index.html"     
     },    
     {
       id: 5,
