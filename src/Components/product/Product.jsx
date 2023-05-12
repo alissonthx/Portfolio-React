@@ -2,7 +2,7 @@ import "./product.css";
 
 const Product = ({ img, desc, link }) => {
   return (
-    <>
+    <div className="p-content">
       <div className="p">
         <div className="p-browser">
           <div className="p-circle"></div>
@@ -16,7 +16,7 @@ const Product = ({ img, desc, link }) => {
       <div className="p-texts">
         {desc}
       </div>
-    </>
+    </div>
   )
 }
 
