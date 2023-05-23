@@ -35,7 +35,7 @@ const Contact = () => {
           <div className="c-info">
             <div className="c-info-item">
               <img src={Phone} alt="phone icon" className="c-icon" />
-              (44) 9 99175-7785
+              (44) 9 9157-7785
             </div>
             <div className="c-info-item">
               <img src={Email} alt="email icon" className="c-icon" />
@@ -43,7 +43,7 @@ const Contact = () => {
             </div>
             <div className="c-info-item">
               <img src={Address} alt="address icon" className="c-icon" />
-              R.Dez de maio, Zona 07, Maringá - PR
+              R.Cantor Raul Seixas, 417, Jardim Ipanema, Maringá - PR
             </div>
             <a style={{backgroundColor: darkMode && "rgb(14, 15, 16)", color: darkMode && "#fff"}} href="https://www.linkedin.com/in/alisson-marques-miquelace/" className="c-info-item">
               <img src={Linkedin} alt="linkedin icon" className="c-icon" />
