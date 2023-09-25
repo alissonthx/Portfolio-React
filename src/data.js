@@ -1,7 +1,7 @@
 export const products = [
     {
       id: 1,
-      img: "https://i.postimg.cc/J0w72VQ7/itch.png",
+      img: "https://i.postimg.cc/yxHb2cjp/1695657880879.png",
       desc: "Here you can find my games in my Itch page.",
       link: "https://nymphdev.itch.io"
     },    
