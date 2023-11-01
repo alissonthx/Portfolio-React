@@ -13,7 +13,7 @@
 
 .pl-title {
   font-size: 50px;
-  font-weight: 600;  
+  font-weight: 600;
 }
 
 .pl-desc {
@@ -27,14 +27,30 @@
   justify-content: space-between;
 }
 
+.pl-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;   
+  padding: 10px;
+}
+
+.pl-icon {
+  width: 40px;
+  height: 40px;  
+  margin-right: 5px; 
+}
+
 @media screen and (max-width: 480px) {
   .pl {
     padding: 10px;
-    height: auto;    
+    height: auto;
   }
+
   .pl-texts {
     width: 100%;
   }
+
   .pl-desc {
     display: none;
   }
