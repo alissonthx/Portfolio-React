@@ -14,14 +14,14 @@ const Intro = () => {
                     <h1 className="i-name">Álisson</h1>
                     <div className="i-title">
                         <div className="i-title-wrapper">
-                            <div className="i-title-item">Web Developer</div>
+                            <div className="i-title-item">Game Design</div>
                             <div className="i-title-item">UX / UI Design</div>
-                            <div className="i-title-item">Front-end</div>
+                            <div className="i-title-item">Game Programming</div>
                             <div className="i-title-item">Game Development</div>                            
                         </div>
                     </div>
                     <p className="i-desc">
-                        I am a Game developer with a passion for design and technology.
+                        I am a Game developer with a passion for develop games and technology.
                     </p>
                 </div>
         <svg style={{stroke: darkMode && "#fff"}}

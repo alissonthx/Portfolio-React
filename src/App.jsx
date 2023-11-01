@@ -12,8 +12,8 @@ const App = () => {
   return <div style={{ backgroundColor: darkMode ? "rgb(14, 15, 16)" : "white", color: darkMode && "white", }}>
     <Toogle />
     <Intro />
-    <About />
     <ProductList />
+    <About />    
     <Contact />
   </div>;
 };
