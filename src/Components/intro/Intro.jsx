@@ -21,7 +21,7 @@ const Intro = () => {
                         </div>
                     </div>
                     <p className="i-desc">
-                        I am a Game developer with a passion for develop games and technology.
+                        I am a Game developer with a passion for game development and technology.
                     </p>
                 </div>
         <svg style={{stroke: darkMode && "#fff"}}
