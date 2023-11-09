@@ -50,7 +50,7 @@ export const awards = [
     id: 3,
     title: "Unity part 2: Illumination, interface and good practices",
     img: "https://i.postimg.cc/kX13Ps2d/cert1.png",
-    desc: "In the course, I focused on improving visual elements, refining user interfaces, and mastering essential game development practices within Unity.",
+    desc: "In this course, I focused on improving visual elements, refining user interfaces, and mastering essential game development practices within Unity.",
     link: "https://cursos.alura.com.br/certificate/54b66172-8ee9-4b58-a2c0-0ef4e4afbfbf",
   },
   {
