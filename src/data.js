@@ -2,7 +2,7 @@ export const products = [
   {
     id: 1,
     img: "https://i.postimg.cc/05M6yzgG/Cook-Hell-Itch-Page.gif",
-    desc: "CookHell.Overcooked inspired 3D game, still in development.",
+    desc: "CookHell it's a cook game you controlls cute demons chef's",
     link: "https://tempestdeveloper.itch.io/cook-hell",
   },
   {
