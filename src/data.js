@@ -1,9 +1,9 @@
 export const products = [
   {
     id: 1,
-    img: "https://i.postimg.cc/Hn9p1pdB/CookHell.png",
+    img: "https://i.postimg.cc/05M6yzgG/Cook-Hell-Itch-Page.gif",
     desc: "CookHell.Overcooked inspired 3D game, still in development.",
-    link: "https://github.com/alissonthx/CookHell",
+    link: "https://tempestdeveloper.itch.io/cook-hell",
   },
   {
     id: 2,
