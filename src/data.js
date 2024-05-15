@@ -1,34 +1,40 @@
 export const products = [
   {
     id: 1,
-    img: "https://i.postimg.cc/05M6yzgG/Cook-Hell-Itch-Page.gif",
-    desc: "CookHell it's a cook game you controlls cute demons chef's",
-    link: "https://tempestdeveloper.itch.io/cook-hell",
+    img: "https://i.postimg.cc/YC1W1dwD/merlin.png",
+    desc: "Multiplayer game called Merlin: Arcane Warfare",
+    link: "https://tempestdeveloper.itch.io/merlin",
   },
   {
     id: 2,
-    img: "https://i.postimg.cc/QdLDt9nV/buble4.png",
-    desc: "The legend of bubble guy. 2D game made in Unity for 99 Jam.",
-    link: "https://alissondev.itch.io/bubbleguy",
+    img: "https://i.postimg.cc/bJ1Hdqwr/Port-cookhell.png",
+    desc: "CookHell, Overcooked inspired 3D game demo.",
+    link: "https://tempestdeveloper.itch.io/cook-hell",
   },
   {
     id: 3,
-    img: "https://i.postimg.cc/6q97FbCJ/zombie-Cover-Banner.png",
-    desc: "Zombie Apocalipse. 3D Survival Game made with Unity.",
-    link: "https://alissondev.itch.io/apocalipse-zombie-v120",
+    img: "https://i.postimg.cc/QdLDt9nV/buble4.png",
+    desc: "The Legend of Bubble Guy is a 2D game made for the 99 Jam",
+    link: "https://tempestdeveloper.itch.io/bubbleguy",
   },
   {
     id: 4,
-    img: "https://i.postimg.cc/4xrYXxp1/print2.png",
-    desc: "Unity Components. 8 Mini Games inside of one Project with Unity.",
-    link: "https://alissondev.itch.io/unity-components",
+    img: "https://i.postimg.cc/6q97FbCJ/zombie-Cover-Banner.png",
+    desc: "Zombie Apocalipse. 3D Survival Game.",
+    link: "https://tempestdeveloper.itch.io/apocalipse-zombie-v120",
   },
   {
     id: 5,
-    img: "https://i.postimg.cc/prt7vzdt/first-Cover-Img.png",
-    desc: "First one. Project made with Unity, first project testing mechanics in one plataform 2D game.",
-    link: "https://alissondev.itch.io/first-one",
+    img: "https://i.postimg.cc/4xrYXxp1/print2.png",
+    desc: "Unity Components. 8 Mini Games inside of one Project with Unity.",
+    link: "https://tempestdeveloper.itch.io/unity-components",
   },
+  {
+    id: 6,
+    img: "https://i.postimg.cc/prt7vzdt/first-Cover-Img.png",
+    desc: "First one, plataform 2D game.",
+    link: "https://tempestdeveloper.itch.io/first-one",
+  }
 ];
 
 export const awards = [
