@@ -1,14 +1,25 @@
-import Highlight from "../../Assets/Gif/highlight.gif";
+import React, { useState } from "react";
 import "./intro.css";
 import Product from "../product/Product";
+import Modal from "../modal/Modal";
+import Highlight from "../../Assets/Gif/highlight.gif";
 import { useContext } from "react";
 import { ThemeContext } from "../../context";
 
 const Intro = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
+  const [isOpen, setIsModalOpen] = useState(false);
+  
   return (
     <div className="i">
+      <Modal
+        title={"Unity Asset tool"}
+        desc={"World Generator tool, with terrain generation, and tree generate"}
+        screenshots={[Highlight]}
+        isOpen={isOpen}
+        setIsModalOpen={() => setIsModalOpen(!isOpen)}
+      ></Modal>
       <div className="i-left">
         <div className="i-left-wrapper">
           <h2 className="i-intro">Hello, my name is</h2>
@@ -90,11 +101,16 @@ const Intro = () => {
           <div className="i-right-wrapper">
             <h1 className="i-name">Highlited</h1>
             <p className="i-right-desc">
-              Unity Asset tool: World procedural Generator, still in development, more comming soon...
+              Unity Asset tool: World procedural Generator, still in
+              development, more comming soon...
             </p>
             <div className="i-card">
-              <Product key={0} img={Highlight} link={"#"} desc={"test"} ></Product>
-              <img src={Highlight} alt="" className="a-img" />
+              <Product
+                key={0}
+                img={Highlight}
+                setIsModalOpen={setIsModalOpen}
+                desc={""}
+              ></Product>
             </div>
           </div>
         </div>

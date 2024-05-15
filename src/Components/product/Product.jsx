@@ -1,8 +1,6 @@
-// Product.js
-import React from "react";
 import "./product.css";
 
-const Product = ({ img, desc, openModal }) => {
+const Product = ({ img, desc, setIsModalOpen, onModalOpen }) => {
   return (
     <div className="p-content">
       <div className="p">
@@ -11,11 +9,19 @@ const Product = ({ img, desc, openModal }) => {
           <div className="p-circle"></div>
           <div className="p-circle"></div>
         </div>
-        <img src={img} alt="" className="p-img" onClick={openModal} />
+        {setIsModalOpen && (
+          <img
+            src={img}
+            alt=""
+            className="p-img"
+            onClick={() => setIsModalOpen(true)}
+          />
+        )}
+        {!setIsModalOpen && (
+          <img src={img} alt="" className="p-img" onClick={onModalOpen} />
+        )}
       </div>
-      <div className="p-texts">
-        {desc}
-      </div>
+      {desc ? <div className="p-texts">{desc}</div> : null}
     </div>
   );
 };
