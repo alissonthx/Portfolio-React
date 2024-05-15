@@ -1,30 +1,33 @@
-import Me from '../../Assets/img/perfil.png'
-import "./intro.css"
-import { useContext } from 'react';
-import { ThemeContext } from '../../context';
+import Highlight from "../../Assets/Gif/highlight.gif";
+import "./intro.css";
+import Product from "../product/Product";
+import { useContext } from "react";
+import { ThemeContext } from "../../context";
 
 const Intro = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
-    return (
-        <div className="i">
-            <div className="i-left">
-                <div className="i-left-wrapper">
-                    <h2 className="i-intro">Hello, my name is</h2>
-                    <h1 className="i-name">Álisson</h1>
-                    <div className="i-title">
-                        <div className="i-title-wrapper">
-                            <div className="i-title-item">Game Design</div>
-                            <div className="i-title-item">UX / UI Design</div>
-                            <div className="i-title-item">Game Programming</div>
-                            <div className="i-title-item">Game Development</div>                            
-                        </div>
-                    </div>
-                    <p className="i-desc">
-                        I am a Game developer with a passion for game development and technology.
-                    </p>
-                </div>
-        <svg style={{stroke: darkMode && "#fff"}}
+  return (
+    <div className="i">
+      <div className="i-left">
+        <div className="i-left-wrapper">
+          <h2 className="i-intro">Hello, my name is</h2>
+          <h1 className="i-name">Álisson</h1>
+          <div className="i-title">
+            <div className="i-title-wrapper">
+              <div className="i-title-item">Gameplay Programmer</div>
+              <div className="i-title-item">Graphics Programmer</div>
+              <div className="i-title-item">Game Developer</div>
+              <div className="i-title-item">GameDev Content Creator</div>
+            </div>
+          </div>
+          <p className="i-desc">
+            I am a Game developer with a passion for game development and
+            technology.
+          </p>
+        </div>
+        <svg
+          style={{ stroke: darkMode && "#fff" }}
           width="75"
           height="75"
           viewBox="0 0 75 75"
@@ -81,12 +84,24 @@ const Intro = () => {
           </g>
         </svg>
       </div>
-            <div className="i-right">
-                <div className="i-bg"></div>
-                <img src={Me} alt="" className="i-img" />
+      <div className="i-right">
+        {/* <div className="i-bg"></div> */}
+        <div className="i-right">
+          <div className="i-right-wrapper">
+            <h1 className="i-name">Highlited</h1>
+            <p className="i-right-desc">
+              Unity Asset tool: World procedural Generator
+            </p>
+            <div className="i-card">
+              <div className=" bg"></div>
+              <Product></Product>
+              <img src={Highlight} alt="" className="a-img" />
             </div>
+          </div>
+        </div>
+      </div>
     </div>
-    )
-}
+  );
+};
 
 export default Intro;

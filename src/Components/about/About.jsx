@@ -18,8 +18,7 @@ const About = () => {
           games, websites and applications.
         </p>
         <p className="a-desc">
-          I am a self-taught game developer with a background in web development. I have a passion for Unity using C# as programming language, javascript, CSS3 and React.js. Currently
-          working with Unity and Construct 3 game engine.
+          I am a self-taught game developer with a background in web development. I have a passion for create visual experience trough the code. Currently using C# as main programming language, javascript, CSS3 and React.js as secondary, I've been making games over four years with unity game engine.
         </p>
         {/* Carousel */}
         <AwardList/>        
