@@ -68,12 +68,6 @@ body {
   overflow: hidden;
 }
 
-.bg {
-  /* position: absolute;   */
-  background-color: #301e64;  
-  z-index: -1;
-}
-
 .i-title-wrapper {
   height: 100%;
   animation: move 7s ease-in-out infinite alternate;
