@@ -1,6 +1,7 @@
+import React from "react";
 import "./product.css";
 
-const Product = ({ img, desc, setIsModalOpen, onModalOpen }) => {
+const Product = ({ imgs, title, setIsModalOpen, onModalOpen }) => {
   return (
     <div className="p-content">
       <div className="p">
@@ -9,19 +10,27 @@ const Product = ({ img, desc, setIsModalOpen, onModalOpen }) => {
           <div className="p-circle"></div>
           <div className="p-circle"></div>
         </div>
-        {setIsModalOpen && (
-          <img
-            src={img}
-            alt=""
-            className="p-img"
-            onClick={() => setIsModalOpen(true)}
-          />
-        )}
-        {!setIsModalOpen && (
-          <img src={img} alt="" className="p-img" onClick={onModalOpen} />
-        )}
+        {imgs?.map((imgUrl, index) => (
+          <React.Fragment key={index}>
+            {setIsModalOpen ? (
+              <img
+                src={imgUrl}
+                alt=""
+                className="p-img"
+                onClick={() => setIsModalOpen(true)}
+              />
+            ) : (
+              <img
+                src={imgUrl}
+                alt=""
+                className="p-img"
+                onClick={onModalOpen}
+              />
+            )}
+          </React.Fragment>
+        ))}
       </div>
-      {desc ? <div className="p-texts">{desc}</div> : null}
+      {title ? <div className="p-texts">{title}</div> : null}
     </div>
   );
 };

@@ -24,9 +24,10 @@ const ProductList = () => {
       {products.map((item, index) => (
         <Modal
           key={item.id}
-          screenshoots={item.img}
+          imgs={item.imgs}
           link={item.link}
-          desc={item.desc}
+          title={item.title}
+          modalDesc={item.desc}
           isOpen={openModalIndex === index}
           setIsModalOpen={handleCloseModal}
         ></Modal>
@@ -53,9 +54,9 @@ const ProductList = () => {
         {products.map((item, index) => (
           <Product
             key={item.id}
-            img={item.img}
+            imgs={item.imgs}
             link={item.link}
-            desc={item.desc}
+            title={item.title}
             onModalOpen={() => handleModalOpen(index)}
           />
         ))}

@@ -2,24 +2,36 @@ import React, { useState } from "react";
 import "./intro.css";
 import Product from "../product/Product";
 import Modal from "../modal/Modal";
-import Highlight from "../../Assets/Gif/highlight.gif";
 import { useContext } from "react";
 import { ThemeContext } from "../../context";
+import { products } from "../../data.js";
 
 const Intro = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
-  const [isOpen, setIsModalOpen] = useState(false);
-  
+  const [openModalIndex, setOpenModalIndex] = useState(null);
+
+  const handleModalOpen = (index) => {
+    setOpenModalIndex(index);
+  };
+
+  const handleCloseModal = () => {
+    setOpenModalIndex(null);
+  };
+
   return (
     <div className="i">
-      <Modal
-        title={"Unity Asset tool"}
-        desc={"World Generator tool, with terrain generation, and tree generate"}
-        screenshots={[Highlight]}
-        isOpen={isOpen}
-        setIsModalOpen={() => setIsModalOpen(!isOpen)}
-      ></Modal>
+      {products.map((item, index) => (
+        <Modal
+          key={item.id}
+          imgs={item.imgs}
+          link={item.link}
+          title={item.title}
+          modalDesc={item.desc}
+          isOpen={openModalIndex === index}
+          setIsModalOpen={handleCloseModal}
+        ></Modal>
+      ))}
       <div className="i-left">
         <div className="i-left-wrapper">
           <h2 className="i-intro">Hello, my name is</h2>
@@ -105,12 +117,15 @@ const Intro = () => {
               development, more comming soon...
             </p>
             <div className="i-card">
-              <Product
-                key={0}
-                img={Highlight}
-                setIsModalOpen={setIsModalOpen}
-                desc={""}
-              ></Product>
+              {products.map((item, index) => (
+                <Product
+                  key={item.id}
+                  imgs={item.imgs}
+                  link={item.link}
+                  title={item.title}
+                  onModalOpen={() => handleModalOpen(index)}
+                />
+              ))}
             </div>
           </div>
         </div>

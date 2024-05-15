@@ -1,6 +1,6 @@
 import "./modal.css";
 
-const Modal = ({ title, desc, screenshots, isOpen, setIsModalOpen }) => {
+const Modal = ({ title, link, modalDesc, imgs, isOpen, setIsModalOpen }) => {
   return (
     <div>
       {isOpen ? (
@@ -11,13 +11,16 @@ const Modal = ({ title, desc, screenshots, isOpen, setIsModalOpen }) => {
             </span>
             <div className="m-left">
               <h2 className="m-title">{title}</h2>
-              <p className="m-desc">{desc}</p>
+              <p className="m-desc">{modalDesc}</p>
+              <a className="m-link" href={link}>
+                More Information
+              </a>
             </div>
             <div className="m-right m-screenshots">
-              {screenshots?.map((screenshot, index) => (
+              {imgs?.map((imgUrl, index) => (
                 <img
                   key={index}
-                  src={screenshot}
+                  src={imgUrl}
                   alt={`Game Screenshot ${index + 1}`}
                 />
               ))}
