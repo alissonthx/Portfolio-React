@@ -13,7 +13,7 @@ const App = () => {
     <Toogle />
     <Intro />
     <ProductList />
-    <About />    
+    <About />
     <Contact />
   </div>;
 };

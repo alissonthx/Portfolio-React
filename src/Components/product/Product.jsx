@@ -1,8 +1,7 @@
-// Product.js
 import React from "react";
 import "./product.css";
 
-const Product = ({ img, desc, openModal }) => {
+const Product = ({ imgs, title, setIsModalOpen, onModalOpen }) => {
   return (
     <div className="p-content">
       <div className="p">
@@ -11,11 +10,27 @@ const Product = ({ img, desc, openModal }) => {
           <div className="p-circle"></div>
           <div className="p-circle"></div>
         </div>
-        <img src={img} alt="" className="p-img" onClick={openModal} />
+        {imgs?.map((imgUrl, index) => (
+          <React.Fragment key={index}>
+            {setIsModalOpen ? (
+              <img
+                src={imgUrl}
+                alt=""
+                className="p-img"
+                onClick={() => setIsModalOpen(true)}
+              />
+            ) : (
+              <img
+                src={imgUrl}
+                alt=""
+                className="p-img"
+                onClick={onModalOpen}
+              />
+            )}
+          </React.Fragment>
+        ))}
       </div>
-      <div className="p-texts">
-        {desc}
-      </div>
+      {title ? <div className="p-texts">{title}</div> : null}
     </div>
   );
 };
