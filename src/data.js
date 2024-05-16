@@ -1,28 +1,55 @@
 export const products = [
   {
     id: 1,
-    imgs: ["https://i.postimg.cc/Y0LzBDrH/highlight.gif"],
+    imgs: [
+      "https://i.postimg.cc/Y0LzBDrH/highlight.gif",
+      "https://i.postimg.cc/L8ZvgM1D/Captura-de-tela-2024-05-10-133739.png",
+      "https://i.postimg.cc/05df7frg/Captura-de-tela-2024-05-11-225626.png",
+      "https://i.postimg.cc/Y0LzBDrH/highlight.gif",
+
+    ],
     title: "Unity Asset tool",
     desc: "Unity Asset tool: World procedural Generator, still in development, more coming soon...",
     link: "",
   },
   {
     id: 2,
-    imgs: ["https://i.postimg.cc/YC1W1dwD/merlin.png"],
+    imgs: [
+      "https://i.postimg.cc/YC1W1dwD/merlin.png",
+      "https://i.postimg.cc/FsCH6M1j/Captura-de-tela-2024-05-01-010028.png",
+      "https://i.postimg.cc/cHL7sqMd/Captura-de-tela-2024-04-17-123659.png",
+      "https://i.postimg.cc/x1qcT0Bx/Captura-de-tela-2024-05-03-114954.png",
+      "https://i.postimg.cc/jdcs7Gyp/Merlin.png"
+
+    ],
     title: "(Multiplayer) Merlin: Arcane Warfare",
     desc: "Multiplayer game called Merlin: Arcane Warfare",
     link: "https://tempestdeveloper.itch.io/merlin",
   },
   {
     id: 3,
-    imgs: ["https://i.postimg.cc/bJ1Hdqwr/Port-cookhell.png"],
+    imgs: [
+      "https://i.postimg.cc/bJ1Hdqwr/Port-cookhell.png",
+      "https://i.postimg.cc/C5SCj6Ff/print-Cook-Hell.png",
+      "https://i.postimg.cc/1XhmTpkP/CookHell.png",
+      "https://i.postimg.cc/N0Cxvx73/print2-Over.png",
+      "https://i.postimg.cc/0y0BtsVf/Cook-Hell-Itch-Page.gif"
+
+    ],
     title: "CookHell",
     desc: "Coooooooook heell :D",
     link: "https://tempestdeveloper.itch.io/cook-hell",
   },
   {
     id: 4,
-    imgs: ["https://i.postimg.cc/QdLDt9nV/buble4.png"],
+    imgs: [
+      "https://i.postimg.cc/QdLDt9nV/buble4.png",
+      "https://i.postimg.cc/hjk2Fj4V/Bubble-Guy.gif",
+      "https://i.postimg.cc/DfGGj69W/Bubble-Guy-bubblestages.gif",
+      "https://i.postimg.cc/9MxdckQC/Bubble-Guy-bubbledash.gif",
+      "https://i.postimg.cc/vmK2GXHR/Bubble-Guy-bubblejump.gif",
+
+    ],
     title: "The Legend of Bubble Guy",
     desc: "The Legend of Bubble Guy is a 2D game made for the 99 Jam",
     link: "https://tempestdeveloper.itch.io/bubbleguy",
@@ -31,18 +58,24 @@ export const products = [
     id: 5,
     imgs: [
       "https://i.postimg.cc/6q97FbCJ/zombie-Cover-Banner.png",
-      "https://i.postimg.cc/6q97FbCJ/zombie-Cover-Banner.png",
-      "https://i.postimg.cc/6q97FbCJ/zombie-Cover-Banner.png",
-      "https://i.postimg.cc/6q97FbCJ/zombie-Cover-Banner.png"
+      "https://i.postimg.cc/9f9NbKjx/screen1-2.png",
+      "https://i.postimg.cc/y88DFC0H/Screen2.png",
+      "https://i.postimg.cc/L6ndfyhW/Screen3.png"      
 
     ],
     title: "Zombie Apocalypse.",
-    desc: "Zombie Apocalypse. 3D Survival Game.",
+    desc: "",
     link: "https://tempestdeveloper.itch.io/apocalipse-zombie-v120",
   },
   {
     id: 6,
-    imgs: ["https://i.postimg.cc/4xrYXxp1/print2.png"],
+    imgs: [
+      "https://i.postimg.cc/qMp4WcbB/print2.png",
+      "https://i.postimg.cc/Hk3CrX1d/Unity-Components1.gif",
+      "https://i.postimg.cc/gkd53jDJ/Unity-Components2.gif",
+      "https://i.postimg.cc/SsgXVJ9h/Unity-Components3.gif",
+      "https://i.postimg.cc/YCxmjnS0/Unity-Components4.gif",
+    ],
     title: "Unity Components. 8 Mini Games inside of one Project.",
     desc: "Unity Components. 8 Mini Games inside of one Project with Unity.",
     link: "https://tempestdeveloper.itch.io/unity-components",
@@ -50,7 +83,11 @@ export const products = [
   {
     id: 7,
     imgs: [
-      "https://i.postimg.cc/prt7vzdt/first-Cover-Img.png"
+      "https://i.postimg.cc/prt7vzdt/first-Cover-Img.png",
+      "https://i.postimg.cc/L61pwCR1/s1.jpg",
+      "https://i.postimg.cc/VNGsmJhr/s2.jpg",
+      "https://i.postimg.cc/jjFTBGWy/s3.jpg",
+      "https://i.postimg.cc/NfpzNR2H/s4.jpg"
     ],
     title: "First one, platform 2D game.",
     desc: "First one, platform 2D game.",

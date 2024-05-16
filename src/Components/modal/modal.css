@@ -46,6 +46,7 @@
   margin-top: 30px;
 }
 .m-desc {
+  width: 100%;
   margin-top: 30px;
 }
 
@@ -82,12 +83,12 @@
 .m-screenshots {
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 30px;  
 }
 
 .m-screenshots img {
-  width: auto; 
   max-width: 350px;
-  max-height: 275px;
+  max-height: 200px;
+  width: 100%;   
   margin: 10px;
 }

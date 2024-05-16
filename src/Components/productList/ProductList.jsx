@@ -21,7 +21,7 @@ const ProductList = () => {
 
   return (
     <div className="pl">
-      {products.map((item, index) => (
+      {products.slice(1).map((item, index) => (
         <Modal
           key={item.id}
           imgs={item.imgs}
@@ -51,7 +51,7 @@ const ProductList = () => {
         </a>
       </div>
       <div className="pl-list">
-        {products.map((item, index) => (
+        {products.slice(1).map((item, index) => (
           <Product
             key={item.id}
             imgs={item.imgs}

@@ -12,16 +12,21 @@ const Modal = ({ title, link, modalDesc, imgs, isOpen, setIsModalOpen }) => {
             <div className="m-left">
               <h2 className="m-title">{title}</h2>
               <p className="m-desc">{modalDesc}</p>
-              <a target="_blank" className="m-link" href={link} rel="noreferrer">
+              <a
+                target="_blank"
+                className="m-link"
+                href={link}
+                rel="noreferrer"
+              >
                 More Information
               </a>
             </div>
             <div className="m-right m-screenshots">
-              {imgs?.map((imgUrl, index) => (
+              {imgs?.slice(1).map((imgUrl, index) => (
                 <img
-                  key={index}
+                  key={index + 1} 
                   src={imgUrl}
-                  alt={`Game Screenshot ${index + 1}`}
+                  alt={`Game Screenshot ${index + 2}`}
                 />
               ))}
             </div>
