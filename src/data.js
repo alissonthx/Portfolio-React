@@ -44,10 +44,7 @@ export const products = [
   {
     id: 7,
     imgs: [
-      "https://i.postimg.cc/prt7vzdt/first-Cover-Img.png",
-      "https://i.postimg.cc/prt7vzdt/first-Cover-Img.png",
-      "https://i.postimg.cc/prt7vzdt/first-Cover-Img.png",
-      "https://i.postimg.cc/prt7vzdt/first-Cover-Img.png",
+      "https://i.postimg.cc/prt7vzdt/first-Cover-Img.png"
     ],
     title: "First one, platform 2D game.",
     desc: "First one, platform 2D game.",

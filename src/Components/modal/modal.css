@@ -27,22 +27,23 @@
   flex: 1;
   position: relative;
   display: flex;
-  justify-content: center;
   flex-direction: column;  
 }
 
 .m-left {
   flex: 1;
   display: flex;
-  /* justify-content: center; */
+  text-align: start;
   flex-direction: column;
+  min-width: 25vw;
+  min-height: 45vh;
 }
 
 .m-title {
   margin-top: 30px;
 }
 .m-desc {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .m-link{  
@@ -83,7 +84,7 @@
 
 .m-screenshots img {
   width: 100%;
-  max-width: 350px;
-  max-height: 350px;
+  width: 400px;
+  height: 250px;
   margin: 10px 10px 10px 10px;
 }
