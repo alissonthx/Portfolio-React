@@ -29,10 +29,16 @@ export const products = [
   },
   {
     id: 5,
-    imgs: ["https://i.postimg.cc/6q97FbCJ/zombie-Cover-Banner.png"],
+    imgs: [
+      "https://i.postimg.cc/6q97FbCJ/zombie-Cover-Banner.png",
+      "https://i.postimg.cc/6q97FbCJ/zombie-Cover-Banner.png",
+      "https://i.postimg.cc/6q97FbCJ/zombie-Cover-Banner.png",
+      "https://i.postimg.cc/6q97FbCJ/zombie-Cover-Banner.png"
+
+    ],
     title: "Zombie Apocalypse.",
     desc: "Zombie Apocalypse. 3D Survival Game.",
-    link: "https://tempestdeveloper.itch.io/apocalypse-zombie-v120",
+    link: "https://tempestdeveloper.itch.io/apocalipse-zombie-v120",
   },
   {
     id: 6,

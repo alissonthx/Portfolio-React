@@ -12,7 +12,7 @@ const Modal = ({ title, link, modalDesc, imgs, isOpen, setIsModalOpen }) => {
             <div className="m-left">
               <h2 className="m-title">{title}</h2>
               <p className="m-desc">{modalDesc}</p>
-              <a className="m-link" href={link}>
+              <a target="_blank" className="m-link" href={link} rel="noreferrer">
                 More Information
               </a>
             </div>
