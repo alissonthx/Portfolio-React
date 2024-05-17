@@ -27,7 +27,7 @@ const Intro = () => {
           imgs={item.imgs}
           link={item.link}
           title={item.title}
-          modalDesc={item.desc}
+          modalDescs={item.desc}
           isOpen={openModalIndex === index}
           setIsModalOpen={handleCloseModal}
         ></Modal>
