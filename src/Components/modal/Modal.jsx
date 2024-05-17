@@ -1,6 +1,7 @@
+import React from "react";
 import "./modal.css";
 
-const Modal = ({ title, link, modalDesc, imgs, isOpen, setIsModalOpen }) => {
+const Modal = ({ title, link, modalDescs, imgs, isOpen, setIsModalOpen }) => {
   return (
     <div>
       {isOpen ? (
@@ -11,7 +12,11 @@ const Modal = ({ title, link, modalDesc, imgs, isOpen, setIsModalOpen }) => {
             </span>
             <div className="m-left">
               <h2 className="m-title">{title}</h2>
-              <p className="m-desc">{modalDesc}</p>
+              {modalDescs?.map((modalDesc, index) => (
+                <React.Fragment key={index}>
+                  <p className="m-desc">{modalDesc}</p>
+                </React.Fragment>
+              ))}
               <a
                 target="_blank"
                 className="m-link"
@@ -24,7 +29,7 @@ const Modal = ({ title, link, modalDesc, imgs, isOpen, setIsModalOpen }) => {
             <div className="m-right m-screenshots">
               {imgs?.slice(1).map((imgUrl, index) => (
                 <img
-                  key={index + 1} 
+                  key={index + 1}
                   src={imgUrl}
                   alt={`Game Screenshot ${index + 2}`}
                 />
