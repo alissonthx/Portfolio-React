@@ -19,7 +19,7 @@ export const products = [
   {
     id: 2,
     imgs: [
-      "https://i.postimg.cc/YC1W1dwD/merlin.png",
+      "https://i.postimg.cc/HLwhM0YJ/Banner-Merlin.png",
       "https://i.postimg.cc/FsCH6M1j/Captura-de-tela-2024-05-01-010028.png",
       "https://i.postimg.cc/cHL7sqMd/Captura-de-tela-2024-04-17-123659.png",
       "https://i.postimg.cc/x1qcT0Bx/Captura-de-tela-2024-05-03-114954.png",
@@ -89,7 +89,7 @@ export const products = [
   {
     id: 6,
     imgs: [
-      "https://i.postimg.cc/qMp4WcbB/print2.png",
+      "https://i.postimg.cc/KYGnCsBy/prototype2.png",
       "https://i.postimg.cc/Hk3CrX1d/Unity-Components1.gif",
       "https://i.postimg.cc/gkd53jDJ/Unity-Components2.gif",
       "https://i.postimg.cc/SsgXVJ9h/Unity-Components3.gif",
