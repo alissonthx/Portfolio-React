@@ -111,7 +111,7 @@ const Intro = () => {
         {/* <div className="i-bg"></div> */}
         <div className="i-right">
           <div className="i-right-wrapper">
-            <h1 className="i-name">Highlited</h1>
+            <h1 className="i-name">Working on</h1>
             <p className="i-right-desc">
               Unity Asset tool: World procedural Generator, still in
               development, more comming soon...
