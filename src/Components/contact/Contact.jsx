@@ -1,6 +1,4 @@
 import "./contact.css";
-import Phone from "../../Assets/img/phone.png";
-import Email from "../../Assets/img/email.png";
 import Address from "../../Assets/img/address.png";
 import Resume from "../../Assets/img/resume.png";
 import Github from "../../Assets/img/github.png";
@@ -33,15 +31,7 @@ const Contact = () => {
       <div className="c-wrapper">
         <div className="c-left">
           <h1 className="c-title">Contact-me</h1>
-          <div className="c-info">
-            <div className="c-info-item">
-              <img src={Phone} alt="phone icon" className="c-icon" />
-              +55 (44) 9821-9842
-            </div>
-            <div className="c-info-item">
-              <img src={Email} alt="email icon" className="c-icon" />
-              alissonmmiquelace@gmail.com
-            </div>
+          <div className="c-info">            
             <div className="c-info-item">
               <img src={Address} alt="address icon" className="c-icon" />
               Maringá, Paraná, Brazil
@@ -56,7 +46,7 @@ const Contact = () => {
             </a>
             <a style={{ backgroundColor: darkMode && "rgb(14, 15, 16)", color: darkMode && "#fff" }} href="https://github.com/alissonthx" className="c-info-item">
               <img src={Github} alt="github icon" className="c-icon" />
-              alissonthx
+              GitHub
             </a>
           </div>
         </div>

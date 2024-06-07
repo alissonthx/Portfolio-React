@@ -1,7 +1,13 @@
 import React from "react";
 import "./modal.css";
+import Github from "../../Assets/img/github.png";
+import { ThemeContext } from "../../context";
+import { useContext} from "react";
 
 const Modal = ({ title, link, modalDescs, imgs, isOpen, setIsModalOpen }) => {
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
+
   return (
     <div>
       {isOpen ? (
@@ -24,7 +30,7 @@ const Modal = ({ title, link, modalDescs, imgs, isOpen, setIsModalOpen }) => {
                 rel="noreferrer"
               >
                 More Information
-              </a>
+              </a>             
             </div>
             <div className="m-right m-screenshots">
               {imgs?.slice(1).map((imgUrl, index) => (
