@@ -1,59 +1,45 @@
-import Head from 'next/head';
+import Navbar from "./navbar.js";
+import Head from "next/head";
+import Image from "next/image";
+import perfil from "../../public/perfil.jpeg";
+import {
+  AiFillTwitterCircle,
+  AiFillLinkedin,
+  AiFillYoutube,
+} from "react-icons/ai";
 
 export default function Home() {
+
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col justify-center items-center">
+    <div>
       <Head>
-        <title>Alisson's Portfolio</title>
-        <meta name="description" content="Alisson's Portfolio - Web Developer" />
+        <title>Portfolio</title>
+        <meta name="description" content="Alisson's Portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <header className="bg-white shadow w-full">
-        <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-          <h1 className="text-3xl font-bold text-gray-900">Alisson's Portfolio</h1>
-        </div>
-      </header>
-
-      <main className="flex flex-col items-center justify-center flex-1 w-full px-20 text-center">
-        <h2 className="text-4xl font-bold">Welcome to My Portfolio</h2>
-        <p className="mt-3 text-2xl">
-          Hi, I'm Alisson. A passionate Web Developer.
-        </p>
-
-        <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
-          <a href="#projects" className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600">
-            <h3 className="text-2xl font-bold">Projects &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Check out some of my latest work and projects.
+      <main className="bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
+        <section className="min-h-screen">
+          <Navbar></Navbar>
+          <div className="text-center p-10 py-10">
+            <h2 className="text-5xl py-2 text-purple-600 font-medium dark:text-purple-400 md:text-6xl">
+              Álisson Marques
+            </h2>
+            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
+              I'm a game developer who specializes in gameplay programming and
+              graphics programming, with a strong interest in making sure the
+              game has a good game feel.
             </p>
-          </a>
-
-          <a href="#about" className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600">
-            <h3 className="text-2xl font-bold">About Me &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Learn more about my background and skills.
-            </p>
-          </a>
-
-          <a href="#contact" className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600">
-            <h3 className="text-2xl font-bold">Contact &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Get in touch with me for collaborations or inquiries.
-            </p>
-          </a>
-        </div>
+            <div className="text-5xl flex justify-center gap-16 py-3 text-gray-500 dark:text-gray-400">
+              <AiFillTwitterCircle />
+              <AiFillLinkedin />
+              <AiFillYoutube />
+            </div>
+            <div className="justify-center mx-auto bg-gradient-to-b from-purple-500 rounded-full min-w-10  w-60 h-60 relative overflow-hidden mt-10 md:h-96 md:w-96">
+              <Image src={perfil} layout="fill" objectFit="cover" />
+            </div>
+          </div>
+        </section>
       </main>
-
-      <footer className="flex items-center justify-center w-full h-24 border-t">
-        <a
-          className="flex items-center justify-center"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        </a>
-      </footer>
     </div>
   );
 }
