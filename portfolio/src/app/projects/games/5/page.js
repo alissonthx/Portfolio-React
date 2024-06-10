@@ -7,17 +7,17 @@ const Games = () => {
       {/* Title Section */}
       <section>
         <h1 className="py-2 text-5xl text-purple-600 font-medium dark:text-purple-400 md:text-6xl text-center">
-          Zombie Apocalypse
+          First One
         </h1>
       </section>
       {/* Video Section */}
       <section>
         <div className="flex justify-center w-full h-full py-10">
           <iframe
-            className="lg:w-[75%] lg:h-[548px] h-[170px]"
-            src="https://www.youtube.com/embed/x5f1pKrNm5g"
+            className="lg:w-[66%] lg:h-[548px] h-[170px]"
+            src="https://www.youtube.com/embed/To_y1hXlBl8"
             frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;"
             allowfullscreen
           ></iframe>
         </div>
@@ -32,7 +32,7 @@ const Games = () => {
                 Platform
               </h2>
               <ul className="text-lg text-gray-500">
-                <li>PC/Web</li>
+                <li>PC</li>
               </ul>
               <h2 className="mt-4 text-3xl font-semibold text-gray-800 dark:text-gray-200">
                 Tools Used
@@ -51,7 +51,9 @@ const Games = () => {
                 Role
               </h2>
               <ul className="text-lg text-gray-500">
-                <li>All aspects</li>
+                <li>Gameplay Programming</li>
+                <li>Level Design</li>
+                <li>Game Design</li>
               </ul>
             </div>
             <div className="w-full mt-6 pb-10 lg:mt-0">
@@ -59,9 +61,10 @@ const Games = () => {
                 Overview
               </h2>
               <p className="text-lg text-gray-500">
-                Survival Game where you can shoot enemies, defeat bosses, spawn
-                bosses, spawn enemies, collect health drops, and experience
-                permadeath/game over. You also can check the game availble on{" "}
+                2D platformer with platforms that can fall, trampolines, and
+                enemies that can be defeated with jump attacks. It uses a free
+                asset pack for sprites and environment/tilesets. You can also
+                check out the game available on{" "}
                 <a
                   href="https://tempestdeveloper.itch.io/zombie-apocalypse"
                   target="_blank"
@@ -76,15 +79,9 @@ const Games = () => {
               </h2>
               <ul className="text-lg text-gray-500">
                 <li>• Design and polish level elements</li>
-                <li>• Develop a system to spawn enemies</li>
-                <li>
-                  • Implement a system to spawn a boss at specific intervals
-                </li>
-                <li>
-                  • Balance the difficulty to ensure a fun and casual gameplay
-                  experience
-                </li>
-                <li>• Add sound effects and background music</li>
+                <li>• Character movement scripts</li>
+                <li>• Scene change scripts and triggers</li>
+                <li>• Polishing to prevent stuck collisions</li>
               </ul>
             </div>
           </div>
@@ -102,17 +99,11 @@ const Games = () => {
                 </h2>
                 <ul class="text-lg text-gray-500">
                   <li>
-                    • Key Features: Intuitive Controls: Utilize the classic
-                    keyboard controls (WASD) for smooth movement, allowing you
-                    to navigate your way through treacherous environments with
-                    ease.
+                    • Key Features: Use arrow keys to move, Space to jump, and
+                    the final goal is to survive and reach the end point in the
+                    level.
                   </li>
-                  <li className="mt-6">
-                    • Simple Aim: Wield your weapon with precision using the
-                    mouse, allowing for accurate targeting and deadly shots
-                    against the oncoming zombie threat.
-                  </li>
-                  <li className="mt-6">
+                  {/* <li className="mt-6">
                     Source code on{" "}
                     <a
                       href="https://github.com/alissonthx/apocalipse-zumbi-alura"
@@ -122,7 +113,7 @@ const Games = () => {
                       GitHub
                     </a>
                     .
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>

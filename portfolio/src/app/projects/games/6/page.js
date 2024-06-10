@@ -14,10 +14,10 @@ const Games = () => {
       <section>
         <div className="flex justify-center w-full py-10">
           <iframe
-            className="lg:w-[75%] lg:h-[548px] h-[170px]"            
+            className="lg:w-[66%] lg:h-[548px] h-[170px]"            
             src="https://www.youtube.com/embed/IKge0IYp9Y8"
             frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;"
             allowfullscreen
           ></iframe>
         </div>

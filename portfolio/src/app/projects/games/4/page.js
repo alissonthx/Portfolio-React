@@ -1,4 +1,9 @@
 import Navbar from "../../../navbar";
+import Image from "next/image";
+import bubbledash from "../../../../../public/bubble-dash.gif";
+import bubbleguy from "../../../../../public/bubble-guy.gif";
+import bubblestages from "../../../../../public/bubble-stages.gif";
+import bubblejump from "../../../../../public/bubble-jump.gif";
 
 const Games = () => {
   return (
@@ -7,17 +12,17 @@ const Games = () => {
       {/* Title Section */}
       <section>
         <h1 className="py-2 text-5xl text-purple-600 font-medium dark:text-purple-400 md:text-6xl text-center">
-          Zombie Apocalypse
+          The Legend of Bubble Guy
         </h1>
       </section>
       {/* Video Section */}
       <section>
         <div className="flex justify-center w-full h-full py-10">
           <iframe
-            className="lg:w-[75%] lg:h-[548px] h-[170px]"
-            src="https://www.youtube.com/embed/x5f1pKrNm5g"
+            className="lg:w-[66%] lg:h-[548px] h-[170px]"
+            src="https://www.youtube.com/embed/PZNW77pghmU"
             frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;"
             allowfullscreen
           ></iframe>
         </div>
@@ -40,18 +45,21 @@ const Games = () => {
               <ul className="text-lg text-gray-500">
                 <li>C#</li>
                 <li>Unity Game Engine</li>
+                <li>Aseprite</li>
               </ul>
               <h2 className="mt-4 text-3xl font-semibold text-gray-800 dark:text-gray-200">
                 Team
               </h2>
               <ul className="text-lg text-gray-500">
-                <li>Independent</li>
+                <li>4</li>
               </ul>
               <h2 className="mt-4 text-3xl font-semibold text-gray-800 dark:text-gray-200">
                 Role
               </h2>
               <ul className="text-lg text-gray-500">
-                <li>All aspects</li>
+                <li>Gameplay Programming</li>
+                <li>Level Design</li>
+                <li>UI Design and Programming</li>
               </ul>
             </div>
             <div className="w-full mt-6 pb-10 lg:mt-0">
@@ -59,11 +67,14 @@ const Games = () => {
                 Overview
               </h2>
               <p className="text-lg text-gray-500">
-                Survival Game where you can shoot enemies, defeat bosses, spawn
-                bosses, spawn enemies, collect health drops, and experience
-                permadeath/game over. You also can check the game availble on{" "}
+                Game made for 99Jam in 10 days. This platform you have power to
+                inflate your bubble at two stages. Utilize it to ensnare
+                enemies, peacefully traverse through the game world. Small
+                bubbles grant you the ability to leap to greater heights, while
+                larger ones envelop you, enabling you to execute dashes. You
+                also can check the game availble on{" "}
                 <a
-                  href="https://tempestdeveloper.itch.io/zombie-apocalypse"
+                  href="https://tempestdeveloper.itch.io/bubbleguy"
                   target="_blank"
                   className="text-blue-500 cursor-pointer"
                 >
@@ -76,14 +87,9 @@ const Games = () => {
               </h2>
               <ul className="text-lg text-gray-500">
                 <li>• Design and polish level elements</li>
-                <li>• Develop a system to spawn enemies</li>
-                <li>
-                  • Implement a system to spawn a boss at specific intervals
-                </li>
-                <li>
-                  • Balance the difficulty to ensure a fun and casual gameplay
-                  experience
-                </li>
+                <li>• Implement character movement system</li>
+                <li>• Implement bubble mechanic</li>
+                <li>• Create a whole level design</li>
                 <li>• Add sound effects and background music</li>
               </ul>
             </div>
@@ -101,21 +107,37 @@ const Games = () => {
                   Game Info
                 </h2>
                 <ul class="text-lg text-gray-500">
+                  <li className="text-2xl font-semibold mt-6 text-gray-200">
+                    Keyboard
+                  </li>
+                  <li>Z key: Inflate the bubble</li>
+                  <li>C key: Shoot the bubble</li>
                   <li>
-                    • Key Features: Intuitive Controls: Utilize the classic
-                    keyboard controls (WASD) for smooth movement, allowing you
-                    to navigate your way through treacherous environments with
-                    ease.
+                    W, A, S, D/Up, Down, Left, Right keys: Control the player's
+                    movements.
                   </li>
-                  <li className="mt-6">
-                    • Simple Aim: Wield your weapon with precision using the
-                    mouse, allowing for accurate targeting and deadly shots
-                    against the oncoming zombie threat.
+                  <li>Space: Jump</li>
+                  <li className="text-2xl font-semibold mt-6 text-gray-200">
+                    Gamepad
                   </li>
-                  <li className="mt-6">
+                  <li>Y button: Inflate the bubble</li>
+                  <li>B button: Shoot the bubble</li>
+                  <li>Left Stick: Control the player's movements.</li>
+                  <li>A button: Jump</li>
+                  <li className="text-gray-200 mt-6">• Particle System.</li>
+                  <Image src={bubbleguy}></Image>
+                  <li className="text-gray-200 mt-6">
+                    • Inflate bubble Stage 1 and Stage 2.
+                  </li>
+                  <Image src={bubblestages}></Image>
+                  <li className="text-gray-200 mt-6">• Using bubble Stage 1.</li>
+                  <Image src={bubblejump}></Image>
+                  <li className="text-gray-200 mt-6">• Using bubble Stage 2.</li>
+                  <Image src={bubbledash}></Image>
+                  <li className="text-gray-200 mt-6">
                     Source code on{" "}
                     <a
-                      href="https://github.com/alissonthx/apocalipse-zumbi-alura"
+                      href="https://github.com/alissonthx/99Jam"
                       target="_blank"
                       className="text-blue-500 cursor-pointer"
                     >

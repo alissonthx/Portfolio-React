@@ -14,10 +14,10 @@ const Games = () => {
       <section>
         <div className="flex justify-center w-full h-full py-10">
           <iframe
-            className="lg:w-[75%] lg:h-[548px] h-[170px]"
-            src="https://www.youtube.com/embed/x5f1pKrNm5g"
+            className="lg:w-[66%] lg:h-[548px] h-[170px]"
+            src="https://www.youtube.com/embed/Kc8DQMqN7vM"
             frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;"
             allowfullscreen
           ></iframe>
         </div>
@@ -104,8 +104,7 @@ const Games = () => {
                   <li>
                     • Key Features: Intuitive Controls: Utilize the classic
                     keyboard controls (WASD) for smooth movement, allowing you
-                    to navigate your way through treacherous environments with
-                    ease.
+                    to navigate your way through environments.
                   </li>
                   <li className="mt-6">
                     • Simple Aim: Wield your weapon with precision using the

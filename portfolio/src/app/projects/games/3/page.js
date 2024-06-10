@@ -1,4 +1,6 @@
 import Navbar from "../../../navbar";
+import Image from "next/image";
+import cookhell from "../../../../../public/cookhell.png";
 
 const Games = () => {
   return (
@@ -7,17 +9,17 @@ const Games = () => {
       {/* Title Section */}
       <section>
         <h1 className="py-2 text-5xl text-purple-600 font-medium dark:text-purple-400 md:text-6xl text-center">
-          Zombie Apocalypse
+          CookHell
         </h1>
       </section>
       {/* Video Section */}
       <section>
         <div className="flex justify-center w-full h-full py-10">
           <iframe
-            className="lg:w-[75%] lg:h-[548px] h-[170px]"
-            src="https://www.youtube.com/embed/x5f1pKrNm5g"
+            className="lg:w-[66%] lg:h-[548px] h-[170px]"
+            src="https://www.youtube.com/embed/2svi1NUrWO0"
             frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;"
             allowfullscreen
           ></iframe>
         </div>
@@ -32,7 +34,7 @@ const Games = () => {
                 Platform
               </h2>
               <ul className="text-lg text-gray-500">
-                <li>PC/Web</li>
+                <li>PC</li>
               </ul>
               <h2 className="mt-4 text-3xl font-semibold text-gray-800 dark:text-gray-200">
                 Tools Used
@@ -40,6 +42,8 @@ const Games = () => {
               <ul className="text-lg text-gray-500">
                 <li>C#</li>
                 <li>Unity Game Engine</li>
+                <li>Blender</li>
+                <li>Krita</li>
               </ul>
               <h2 className="mt-4 text-3xl font-semibold text-gray-800 dark:text-gray-200">
                 Team
@@ -59,11 +63,10 @@ const Games = () => {
                 Overview
               </h2>
               <p className="text-lg text-gray-500">
-                Survival Game where you can shoot enemies, defeat bosses, spawn
-                bosses, spawn enemies, collect health drops, and experience
-                permadeath/game over. You also can check the game availble on{" "}
+                Cooking Game where you can . You also can check the game
+                availble on{" "}
                 <a
-                  href="https://tempestdeveloper.itch.io/zombie-apocalypse"
+                  href="https://tempestdeveloper.itch.io/cook-hell"
                   target="_blank"
                   className="text-blue-500 cursor-pointer"
                 >
@@ -76,13 +79,13 @@ const Games = () => {
               </h2>
               <ul className="text-lg text-gray-500">
                 <li>• Design and polish level elements</li>
-                <li>• Develop a system to spawn enemies</li>
+                <li>• Create Low poly model characters</li>
+                <li>• Implement Toon Shader and shader to deliver counter</li>
+                <li>• Develop Timer to control game</li>
+                <li>• Implement a system for Recipes</li>
                 <li>
-                  • Implement a system to spawn a boss at specific intervals
-                </li>
-                <li>
-                  • Balance the difficulty to ensure a fun and casual gameplay
-                  experience
+                  • Utilize scriptable objects to easily implement more features
+                  and recipes
                 </li>
                 <li>• Add sound effects and background music</li>
               </ul>
@@ -102,20 +105,17 @@ const Games = () => {
                 </h2>
                 <ul class="text-lg text-gray-500">
                   <li>
-                    • Key Features: Intuitive Controls: Utilize the classic
-                    keyboard controls (WASD) for smooth movement, allowing you
-                    to navigate your way through treacherous environments with
-                    ease.
+                    • Tutorial UI to explain the game before it starts,
+                    available for gamepads and keyboards.
                   </li>
+                  <Image src={cookhell}></Image>
                   <li className="mt-6">
-                    • Simple Aim: Wield your weapon with precision using the
-                    mouse, allowing for accurate targeting and deadly shots
-                    against the oncoming zombie threat.
+                    • Scriptable objects to controls the recipes, type of foods, foods fryied, foods available to put on the top of the counter and controls audio clips.
                   </li>
                   <li className="mt-6">
                     Source code on{" "}
                     <a
-                      href="https://github.com/alissonthx/apocalipse-zumbi-alura"
+                      href="https://github.com/alissonthx/CookHell"
                       target="_blank"
                       className="text-blue-500 cursor-pointer"
                     >
