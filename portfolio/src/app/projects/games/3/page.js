@@ -1,6 +1,16 @@
 import Navbar from "../../../navbar";
 import Image from "next/image";
 import cookhell from "../../../../../public/cookhell.png";
+import scriptables from "../../../../../public/scriptables.png";
+import scriptableAudio from "../../../../../public/scriptable-audio.png";
+import scriptableFoods from "../../../../../public/scriptable-foods.png";
+import scriptableFryingRecipes from "../../../../../public/scriptable-frying-recipe.png";
+import scriptableKitchenObjects from "../../../../../public/scriptable-kitchen-objects.png";
+import scriptableListRecipes from "../../../../../public/scriptable-list-recipes.png";
+import scriptableMeat from "../../../../../public/scriptable-meat-cooked.png";
+import scriptableRecipe from "../../../../../public/scriptable-recipe.png";
+import cellShader from "../../../../../public/cellshader.png";
+
 
 const Games = () => {
   return (
@@ -16,7 +26,7 @@ const Games = () => {
       <section>
         <div className="flex justify-center w-full h-full py-10">
           <iframe
-            className="lg:w-[66%] lg:h-[574px] h-[170px]"
+            className="lg:w-[66%] md:w-[100%] md:h-[350px] lg:h-[574px] h-[170px]"
             src="https://www.youtube.com/embed/2svi1NUrWO0"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen;"
@@ -100,18 +110,24 @@ const Games = () => {
           <div class="w-full flex flex-col justify-center lg:flex-row max-w-[85rem]">
             <div class="grid lg:grid-cols-1 lg:w-9/12">
               <div class="w-full mt-6 lg:mt-0">
-                <h2 class="text-3xl font-semibold text-gray-800 dark:text-gray-200">
+                <h2 class="mb-6 text-3xl font-semibold text-gray-800 dark:text-gray-200">
                   Game Info
                 </h2>
                 <ul class="text-lg text-gray-500">
+                  {/* <li class="mt-6 text-3xl font-semibold text-gray-800 dark:text-gray-200">
+                    UI
+                  </li> */}
                   <li>
-                    • Tutorial UI to explain the game before it starts,
-                    available for gamepads and keyboards.
+                    • Provide a tutorial UI to explain the game before it
+                    starts, including controls for both gamepads and keyboards.
                   </li>
                   <Image src={cookhell}></Image>
                   <li className="mt-6">
-                    • Scriptable objects to controls the recipes, type of foods, foods fryied, foods available to put on the top of the counter and controls audio clips.
+                    • Created Scriptable objects to controls the recipes, type of foods,
+                    foods fryied, foods available to put on the top of the
+                    counter and controls audio clips.
                   </li>
+                  <Image src={scriptables}></Image>
                   <li className="mt-6">
                     Source code on{" "}
                     <a
