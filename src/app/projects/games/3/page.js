@@ -15,7 +15,6 @@ import cellShader from "../../../../../public/cellshader.png";
 
 const Games = () => {
   const [showModal, setShowModal] = useState(false);
-
   const toggleModal = () => {
     setShowModal(!showModal);
   };
