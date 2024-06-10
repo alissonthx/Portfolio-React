@@ -5,13 +5,10 @@
 <h2>🚀 Technologies</h2>
 <ul>
 <li>
-React Js
+Next Js
 </li>	
 <li>
-Node js
-</li>
-<li>
-CSS
+Tailwind CSS
 </li>
 <li>
 HTML
