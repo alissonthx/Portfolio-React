@@ -1,3 +1,5 @@
+"use client";
+import { useState } from "react";
 import Navbar from "../../../navbar";
 import Image from "next/image";
 import cookhell from "../../../../../public/cookhell.png";
@@ -12,6 +14,11 @@ import scriptableRecipe from "../../../../../public/scriptable-recipe.png";
 import cellShader from "../../../../../public/cellshader.png";
 
 const Games = () => {
+  const [showModal, setShowModal] = useState(false);
+
+  const toggleModal = () => {
+    setShowModal(!showModal);
+  };
   return (
     <main className="bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
       <Navbar></Navbar>
@@ -189,7 +196,12 @@ const Games = () => {
                     • Created cel shading for the entire game to give it a
                     cartoon-like appearance.
                   </li>
-                  <Image src={cellShader}></Image>
+                  <Image
+                    src={cellShader}
+                    alt="Cel Shader Image"
+                    onClick={toggleModal}
+                    className="cursor-pointer"
+                  />
                   <li className="mt-6 text-gray-200">
                     Source code on{" "}
                     <a
@@ -201,6 +213,19 @@ const Games = () => {
                     </a>
                     .
                   </li>
+                  {showModal && (
+                    <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-75 flex justify-center items-center z-50">
+                      <div className="bg-gray-900 p-8 rounded-lg relative">
+                        <button
+                          onClick={toggleModal}
+                          className="absolute top-1.5 right-3 text-gray-500 hover:text-gray-600"
+                        >
+                         <div>&times;</div>
+                        </button>
+                        <Image src={cellShader} alt="Cel Shader Image" />
+                      </div>
+                    </div>
+                  )}
                 </ul>
               </div>
             </div>

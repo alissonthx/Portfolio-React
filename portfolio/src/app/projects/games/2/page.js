@@ -7,7 +7,7 @@ const Games = () => {
       {/* Title Section */}
       <section>
         <h1 className="py-2 text-5xl text-purple-600 font-medium dark:text-purple-400 md:text-6xl text-center">
-          Zombie Apocalypse
+          Merlin: Arcane Warfare
         </h1>
       </section>
       {/* Video Section */}
@@ -32,7 +32,7 @@ const Games = () => {
                 Platform
               </h2>
               <ul className="text-lg text-gray-500">
-                <li>PC/Web</li>
+                <li>PC</li>
               </ul>
               <h2 className="mt-4 text-3xl font-semibold text-gray-800 dark:text-gray-200">
                 Tools Used
@@ -40,6 +40,7 @@ const Games = () => {
               <ul className="text-lg text-gray-500">
                 <li>C#</li>
                 <li>Unity Game Engine</li>
+                <li>Blender</li>
               </ul>
               <h2 className="mt-4 text-3xl font-semibold text-gray-800 dark:text-gray-200">
                 Team
@@ -59,11 +60,11 @@ const Games = () => {
                 Overview
               </h2>
               <p className="text-lg text-gray-500">
-                Survival Game where you can shoot enemies, defeat bosses, spawn
-                bosses, spawn enemies, collect health drops, and experience
-                permadeath/game over. You also can check the game availble on{" "}
+                A multiplayer first-person shooter game where you can shoot,
+                kill, and respawn using your mage spells with your staff. You
+                also can check the game availble on{" "}
                 <a
-                  href="https://tempestdeveloper.itch.io/zombie-apocalypse"
+                  href="https://tempestdeveloper.itch.io/merlin"
                   target="_blank"
                   className="text-blue-500 cursor-pointer"
                 >
@@ -75,16 +76,18 @@ const Games = () => {
                 Goals
               </h2>
               <ul className="text-lg text-gray-500">
-                <li>• Design and polish level elements</li>
-                <li>• Develop a system to spawn enemies</li>
+                <li>• Implement first-person controls and sync online</li>
+                <li>• Implement some animations and sync online</li>
+                <li>• Design level elements</li>
+                <li>• Develop a system to spawn lobbies</li>
                 <li>
-                  • Implement a system to spawn a boss at specific intervals
+                  • Develop a system for connecting hosts and generating join
+                  codes for clients to connect.
                 </li>
-                <li>
-                  • Balance the difficulty to ensure a fun and casual gameplay
-                  experience
-                </li>
+                <li>• Implement a system to spawn environments online</li>
+                <li>• Create VFX particle feedback for shots</li>
                 <li>• Add sound effects and background music</li>
+                <li>• Post-processing</li>
               </ul>
             </div>
           </div>
@@ -102,20 +105,22 @@ const Games = () => {
                 </h2>
                 <ul class="text-lg text-gray-500">
                   <li>
-                    • Key Features: Intuitive Controls: Utilize the classic
-                    keyboard controls (WASD) for smooth movement, allowing you
-                    to navigate your way through treacherous environments with
-                    ease.
+                    • The primary objective of this game is to defeat your rival
+                    in this survival battle. You can shoot, jump, and navigate
+                    through the environment, similar to any first-person shooter
+                    available on the market, and respawn within seconds. I have
+                    endeavored to integrate all possible visual feedback and
+                    sounds to enhance shooting experiences and provide a better
+                    multiplayer gaming experience.
                   </li>
                   <li className="mt-6">
-                    • Simple Aim: Wield your weapon with precision using the
-                    mouse, allowing for accurate targeting and deadly shots
-                    against the oncoming zombie threat.
+                    • Controls: Keyboard and mouse controls, similar to those
+                    found in any first-person shooter on the market.
                   </li>
-                  <li className="mt-6">
+                  <li className="mt-6 text-gray-200">
                     Source code on{" "}
                     <a
-                      href="https://github.com/alissonthx/apocalipse-zumbi-alura"
+                      href="https://github.com/alissonthx/Merlin-Arcane-Warfare"
                       target="_blank"
                       className="text-blue-500 cursor-pointer"
                     >
