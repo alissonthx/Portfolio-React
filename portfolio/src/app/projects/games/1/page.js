@@ -111,7 +111,7 @@ const Games = () => {
                     mouse, allowing for accurate targeting and deadly shots
                     against the oncoming zombie threat.
                   </li>
-                  <li className="mt-6">
+                  <li className="mt-6 text-gray-200">
                     Source code on{" "}
                     <a
                       href="https://github.com/alissonthx/apocalipse-zumbi-alura"

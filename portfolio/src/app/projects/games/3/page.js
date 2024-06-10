@@ -11,7 +11,6 @@ import scriptableMeat from "../../../../../public/scriptable-meat-cooked.png";
 import scriptableRecipe from "../../../../../public/scriptable-recipe.png";
 import cellShader from "../../../../../public/cellshader.png";
 
-
 const Games = () => {
   return (
     <main className="bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
@@ -114,21 +113,84 @@ const Games = () => {
                   Game Info
                 </h2>
                 <ul class="text-lg text-gray-500">
-                  {/* <li class="mt-6 text-3xl font-semibold text-gray-800 dark:text-gray-200">
-                    UI
-                  </li> */}
-                  <li>
-                    • Provide a tutorial UI to explain the game before it
-                    starts, including controls for both gamepads and keyboards.
+                  <li class="mt-6 text-3xl font-semibold text-gray-800 dark:text-gray-200">
+                    Overview
                   </li>
-                  <Image src={cookhell}></Image>
-                  <li className="mt-6">
-                    • Created Scriptable objects to controls the recipes, type of foods,
-                    foods fryied, foods available to put on the top of the
-                    counter and controls audio clips.
+                  <li className="mb-6">
+                    In this project, I learned how to implement events, use
+                    Unity's new input system, and create state machines to
+                    control the state of the game, the foods, and the
+                    animations. The core of the game uses ScriptableObjects to
+                    manage the objects' data and some information, and to
+                    control the states. I connected these components using
+                    events and delegates, and finally, I worked on some UI and
+                    low-poly artwork.
                   </li>
-                  <Image src={scriptables}></Image>
-                  <li className="mt-6">
+                </ul>
+                <ul>
+                  <ul className="text-lg text-gray-500">
+                    <li>
+                      • Provide a tutorial UI to explain the game before it
+                      starts, including controls for both gamepads and
+                      keyboards.
+                      <Image src={cookhell}></Image>
+                    </li>
+                  </ul>
+                  <ul className="text-lg text-gray-500">
+                    <li className="mt-6">
+                      • Created scriptable objects to control the recipes, types
+                      of food, fried foods, foods available to put on the top of
+                      the counter, and audio clips.
+                      <Image src={scriptables}></Image>
+                    </li>
+                  </ul>
+                  <ul className="lg:grid lg:grid-cols-2 text-lg text-gray-500">
+                    <li className="mt-6 max-w-md">
+                      • Created a scriptable object to store data on the
+                      possible foods that can be cut.
+                      <Image src={scriptableFoods}></Image>
+                    </li>
+                    <li className="mt-6 max-w-md">
+                      • Created a scriptable object to store data on the
+                      possible foods that can be fried.
+                      <Image src={scriptableFryingRecipes}></Image>
+                    </li>
+                    <li className="mt-6 max-w-md">
+                      • Created a scriptable object to store kitchen objects
+                      that are available to put on the counter to cut and get
+                      their outside mesh.
+                      <Image src={scriptableKitchenObjects}></Image>
+                    </li>
+                    <li className="mt-6 max-w-md">
+                      • Created a scriptable object to get the output of
+                      possible foods that can be burned and that the player can
+                      use but not get any points for delivering these recipes.
+                      <Image src={scriptableMeat}></Image>
+                    </li>
+                  </ul>
+                  <ul className="lg:grid lg:grid-cols-2 text-lg text-gray-500">
+                    <li className="mt-6 max-w-md">
+                      • Created a scriptable object to control audio clips with
+                      variations.
+                      <Image src={scriptableAudio}></Image>
+                    </li>
+                    <li className="mt-6 max-w-md">
+                      • Created a scriptable object for the possible foods in
+                      each recipe.
+                      <Image className="" src={scriptableRecipe}></Image>•
+                      Created a scriptable object to store data on the list of
+                      available recipes.
+                      <Image src={scriptableListRecipes}></Image>
+                    </li>
+                  </ul>
+                </ul>
+                <ul className="text-lg">
+                  <li className="mt-6 text-gray-500">
+                    • Created cel shading for the entire game to give it a
+                    cartoon-like appearance.
+                  </li>
+                  <Image src={cellShader}></Image>
+                  <li className="mt-6 text-gray-200">
                     Source code on{" "}
                     <a
                       href="https://github.com/alissonthx/CookHell"

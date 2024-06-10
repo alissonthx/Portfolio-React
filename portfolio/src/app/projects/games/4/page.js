@@ -124,15 +124,15 @@ const Games = () => {
                   <li>B button: Shoot the bubble</li>
                   <li>Left Stick: Control the player's movements.</li>
                   <li>A button: Jump</li>
-                  <li className="text-gray-200 mt-6">• Particle System.</li>
+                  <li className="text-gray-500 mt-6">• Particle System.</li>
                   <Image src={bubbleguy}></Image>
-                  <li className="text-gray-200 mt-6">
+                  <li className="text-gray-500 mt-6">
                     • Inflate bubble Stage 1 and Stage 2.
                   </li>
                   <Image src={bubblestages}></Image>
-                  <li className="text-gray-200 mt-6">• Using bubble Stage 1.</li>
+                  <li className="text-gray-500 mt-6">• Using bubble Stage 1.</li>
                   <Image src={bubblejump}></Image>
-                  <li className="text-gray-200 mt-6">• Using bubble Stage 2.</li>
+                  <li className="text-gray-500 mt-6">• Using bubble Stage 2.</li>
                   <Image src={bubbledash}></Image>
                   <li className="text-gray-200 mt-6">
                     Source code on{" "}
