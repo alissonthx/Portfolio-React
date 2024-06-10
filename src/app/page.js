@@ -9,7 +9,6 @@ import {
 } from "react-icons/ai";
 
 export default function Home() {
-
   return (
     <div>
       <Head>
@@ -30,9 +29,15 @@ export default function Home() {
               game has a good game feel.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-500 dark:text-gray-400">
-              <AiFillTwitterCircle />
-              <AiFillLinkedin />
-              <AiFillYoutube />
+              <a  target="_blank" href="https://x.com/AlissonNymph">
+                <AiFillTwitterCircle />
+              </a>
+              <a  target="_blank" href="https://www.linkedin.com/in/alisson-marques-miquelace/">
+                <AiFillLinkedin />
+              </a>
+              <a  target="_blank" href="https://www.youtube.com/channel/UCWSYLuSvl0q4bVWprGs_XbA">
+                <AiFillYoutube />
+              </a>
             </div>
             <div className="justify-center mx-auto bg-gradient-to-b from-purple-500 rounded-full min-w-10  w-60 h-60 relative overflow-hidden mt-10 md:h-96 md:w-96">
               <Image src={perfil} layout="fill" objectFit="cover" />
