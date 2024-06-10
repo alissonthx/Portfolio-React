@@ -11,7 +11,7 @@ Next Js
 Tailwind CSS
 </li>
 <li>
-HTML
+HTML5
 </li>
 <li>
 Vercel
