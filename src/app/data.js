@@ -93,7 +93,7 @@ export const games = [
       "https://i.postimg.cc/05df7frg/Captura-de-tela-2024-05-11-225626.png",
       "https://i.postimg.cc/Y0LzBDrH/highlight.gif",
     ],
-    title: "Unity Asset tool still in development",
+    title: "Unity Asset tool, still in development",
     desc: [
       "I aim to make this tool available on the Unity Store very soon, and it will likely help other game developers create open worlds more quickly.",
       "What the tool can do right now: Create vertices for terrain; Generate terrain shapes procedurally; Spawn tree prefabs around the terrain procedurally.",
