@@ -16,7 +16,7 @@ const Navbar = () => {
         <li>
           <a
             className="bg-gradient-to-r from-blue-500 to-purple-500 text-white border-none rounded-md px-4 py-2"
-            href="https://www.canva.com/design/DAFubOFfHlo/KSCWrWKRttTldJnpNgsT0w/edit?utm_content=DAFubOFfHlo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+            href="https://docs.google.com/document/d/e/2PACX-1vSHWq0XhvVKXsNvAgFcx74ffAtWDxQj_241RE5O8-vWbXt9Sn27U1JW0uMJF5ypKdvqXXP56YmAutnE/pub"
             target="_blank"
           >
             Resume
