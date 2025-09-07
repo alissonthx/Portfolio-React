@@ -2,7 +2,7 @@
 <a href="https://alissonthx-portfolio.vercel.app"><img src="./src/Assets/img/readme-img.png" alt="" /></a>
 <p align="center"> Personal portfolio with deploy in Vercel</p>
 
-<h2>🚀 Technologies</h2>
+<h2>🛠️ Tech Stack</h2>
 <ul>
 <li>
 Next Js
