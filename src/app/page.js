@@ -24,9 +24,8 @@ export default function Home() {
               Álisson Marques
             </h2>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              I'm a game developer who specializes in gameplay programming and
-              graphics programming, with a strong interest in making sure the
-              game has a good game feel.
+              Software developer with almost 4 years of experience, highly proficient in Javascript and C#,
+               I have worked with Docker, .NET, SQL, Docker, Javascript, Typescript, Angular and React/Next. Specialist in problem solving and performance improvement in code.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-500 dark:text-gray-400">
               <a  target="_blank" href="https://x.com/AlissonNymph">
