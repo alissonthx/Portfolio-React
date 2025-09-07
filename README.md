@@ -1,5 +1,5 @@
 <h1 align="center"> Portfolio </h1>
-<a href="https://alissonthx-portfolio.vercel.app"><img src="./src/Assets/img/readme-img.png" alt="" /></a>
+<a href="https://alissonthx-portfolio.vercel.app"><img src="./public/landpage.png" alt="" /></a>
 <p align="center"> Personal portfolio with deploy in Vercel</p>
 
 <h2>🛠️ Tech Stack</h2>
